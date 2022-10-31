@@ -1,0 +1,138 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cicle Staging Mobile App - Group Chat,,,,2022-10-30 01:30:43,2022-10-30 01:38:23,7m - 39.813s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-13,,,,2022-10-30 01:30:44,2022-10-30 01:31:23,39.824s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:30:44,2022-10-30 01:31:10,26.426s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" Menu",,2022-10-30 01:31:10,2022-10-30 01:31:13,2.086s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-10-30 01:31:13,2022-10-30 01:31:16,3.026s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), 0)",,"User click ""Type Message"" Field",,2022-10-30 01:31:16,2022-10-30 01:31:16,0.136s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-10-30 01:31:16,2022-10-30 01:31:19,3.008s,PASSED
+"setText(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), findTestData(""GroupChat/sendMessageonGroupChat"").getValue(1, 1), 0)",,"User Input Text in ""Type Message"" Field",,2022-10-30 01:31:19,2022-10-30 01:31:19,0.158s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-10-30 01:31:19,2022-10-30 01:31:22,3.018s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/SendChat-Button""), 0)",,User click Send button,,2022-10-30 01:31:22,2022-10-30 01:31:23,1.446s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Group Chat/Assertion-SendChat""), 0)",,Success to send Message on Group Chat,,2022-10-30 01:31:23,2022-10-30 01:31:23,0.155s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-14,,,,2022-10-30 01:31:23,2022-10-30 01:32:20,56.174s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:31:24,2022-10-30 01:31:43,19.306s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:31:43,2022-10-30 01:31:43,0.162s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-10-30 01:31:43,2022-10-30 01:31:46,3.014s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), 0)",,"User click ""Type Message"" field",,2022-10-30 01:31:46,2022-10-30 01:31:46,0.187s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-10-30 01:31:46,2022-10-30 01:31:49,3.024s,PASSED
+"setText(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), findTestData(""GroupChat/sendMessageonGroupChat"").getValue(2, 1), 0)",,"User Input Empty Text in ""Type Message"" Field",,2022-10-30 01:31:49,2022-10-30 01:31:50,0.152s,PASSED
+"verifyElementNotVisible(findTestObject(""cicle.staging/Group Chat/SendChat-Button""), 0)",,Send button it not showing to send message,,2022-10-30 01:31:50,2022-10-30 01:32:20,30.084s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-36,,,,2022-10-30 01:32:20,2022-10-30 01:32:43,23.478s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:32:20,2022-10-30 01:32:39,19.412s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:32:39,2022-10-30 01:32:40,0.949s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), 0)",,"User click ""Type Message"" field",,2022-10-30 01:32:40,2022-10-30 01:32:40,0.120s,PASSED
+"setText(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), findTestData(""GroupChat/sendMessageonGroupChat"").getValue(2, 2), 0)",,"User Input Empty Text in ""Type Message"" Field",,2022-10-30 01:32:40,2022-10-30 01:32:41,0.744s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/SendChat-Button""), 0)",,User click Send button,,2022-10-30 01:32:41,2022-10-30 01:32:43,1.853s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Group Chat/Assertion-SendChat""), 0)",,"Success to send message using Space button as empty character on Group Chat
+",,2022-10-30 01:32:43,2022-10-30 01:32:43,0.113s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-39,,,,2022-10-30 01:32:43,2022-10-30 01:33:14,30.504s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:32:43,2022-10-30 01:33:03,19.115s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:33:03,2022-10-30 01:33:03,0.165s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-10-30 01:33:03,2022-10-30 01:33:08,5.022s,PASSED
+"for ([i = 1, i < 2, (i++)])",,,,2022-10-30 01:33:08,2022-10-30 01:33:11,3.077s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/DeleteMessageOnGroupChatButton""), 0)",,"User click ""Delete"" button",,2022-10-30 01:33:11,2022-10-30 01:33:12,0.722s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/OkForSureDeleteMessage""), 0)",,"User click ""OK"" button",,2022-10-30 01:33:12,2022-10-30 01:33:14,2.020s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Group Chat/AssertDeleteMessage""), 0)",,"Showing message ""Delete group chat message success""",,2022-10-30 01:33:14,2022-10-30 01:33:14,0.102s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-37,,,,2022-10-30 01:33:14,2022-10-30 01:33:42,28.062s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:33:14,2022-10-30 01:33:32,18.192s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:33:32,2022-10-30 01:33:33,0.931s,PASSED
+delay(3),,,,2022-10-30 01:33:33,2022-10-30 01:33:36,3.028s,PASSED
+"for ([i = 1, i < 2, (i++)])",,,,2022-10-30 01:33:36,2022-10-30 01:33:40,4.039s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Group Chat/CopyTextButton""), 0)",,"User click ""Copy"" button",,2022-10-30 01:33:40,2022-10-30 01:33:40,0.232s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/cicle.staging/Group Chat/AssertCopyTextToClipBoard""), 0)",,,,2022-10-30 01:33:40,2022-10-30 01:33:42,1.409s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-38,,,,2022-10-30 01:33:42,2022-10-30 01:34:11,29.123s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:33:42,2022-10-30 01:34:01,19.143s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:34:01,2022-10-30 01:34:01,0.097s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-10-30 01:34:01,2022-10-30 01:34:06,5.010s,PASSED
+"for ([i = 1, i < 2, (i++)])",,,,2022-10-30 01:34:06,2022-10-30 01:34:09,3.037s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Group Chat/CopyTextButton""), 0)",,"User click ""Copy"" button",,2022-10-30 01:34:09,2022-10-30 01:34:11,1.533s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/cicle.staging/Group Chat/AssertCopyTextToClipBoard""), 0)",,,,2022-10-30 01:34:11,2022-10-30 01:34:11,0.098s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-15,,,,2022-10-30 01:34:11,2022-10-30 01:34:37,26.374s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:34:11,2022-10-30 01:34:30,19.151s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:34:30,2022-10-30 01:34:30,0.116s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), 0)",,"User click ""Type Message"" Field",,2022-10-30 01:34:30,2022-10-30 01:34:31,1.135s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/MentionUser-Button""), 0)",,"User click ""@"" button",,2022-10-30 01:34:31,2022-10-30 01:34:33,1.379s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/MentionAllUserOnChat-Button""), 0)",,"User click ""Mention All User"" button",,2022-10-30 01:34:33,2022-10-30 01:34:34,0.959s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/SendChat-Button""), 0)",,User click Send button,,2022-10-30 01:34:34,2022-10-30 01:34:35,1.306s,PASSED
+"verifyElementNotVisible(findTestObject(""cicle.staging/Group Chat/AssertMentionAllUser""), 2)",,Success Mentioned All User on Group Chat,,2022-10-30 01:34:35,2022-10-30 01:34:37,2.121s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-16,,,,2022-10-30 01:34:37,2022-10-30 01:35:05,27.223s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:34:38,2022-10-30 01:34:56,18.283s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:34:56,2022-10-30 01:34:57,0.886s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), 0)",,"User click ""Type Message"" field",,2022-10-30 01:34:57,2022-10-30 01:34:58,1.270s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard""), 0)",,"User click ""Attachment"" button",,2022-10-30 01:34:58,2022-10-30 01:35:00,1.533s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/ImageFromGalleryAttachment-Button""), 0)",,"User click ""Image From Gallery"" button",,2022-10-30 01:35:00,2022-10-30 01:35:00,0.143s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/Image-AddImageFromFiles-RECENT FILES""), 0, STOP_ON_FAILURE)",,"Success to ""Add Image from Gallery"" on Group Chat",,2022-10-30 01:35:00,2022-10-30 01:35:01,1.818s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-10-30 01:35:01,2022-10-30 01:35:05,3.021s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-17,,,,2022-10-30 01:35:05,2022-10-30 01:35:36,31.220s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:35:05,2022-10-30 01:35:23,18.504s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:35:23,2022-10-30 01:35:24,0.895s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-10-30 01:35:24,2022-10-30 01:35:27,3.021s,PASSED
+"for ([i = 1, i <= 3, (i++)])",,,,2022-10-30 01:35:27,2022-10-30 01:35:28,0.952s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/DownloadImageButtonGroupChat""), 0)",,,,2022-10-30 01:35:28,2022-10-30 01:35:28,0.155s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-10-30 01:35:28,2022-10-30 01:35:31,3.011s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Group Chat/Assertion-NotifStartDownload""), 0)",,,,2022-10-30 01:35:31,2022-10-30 01:35:32,0.088s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Group Chat/Assertion-Downloaded""), 0)",,,,2022-10-30 01:35:32,2022-10-30 01:35:34,2.366s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/OPEN URL Downloaded Image""), 1)",,,,2022-10-30 01:35:34,2022-10-30 01:35:34,0.137s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Group Chat/Media not found-OPEN IMAGE""), 2, OPTIONAL)",,,,2022-10-30 01:35:34,2022-10-30 01:35:36,1.745s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-18,,,,2022-10-30 01:35:36,2022-10-30 01:36:01,25.195s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:35:36,2022-10-30 01:35:55,19.392s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:35:55,2022-10-30 01:35:56,0.096s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), 0)",,"User click ""Type Message"" field",,2022-10-30 01:35:56,2022-10-30 01:35:57,1.138s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard""), 0)",,"User click ""Attachment"" button",,2022-10-30 01:35:57,2022-10-30 01:35:58,1.620s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/ImageFromCameraAttachment-Button""), 0)",,"User click ""Image From Camera"" button",,2022-10-30 01:35:58,2022-10-30 01:35:58,0.146s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/shutterCamera-Button""), 0, STOP_ON_FAILURE)",,"User click ""Shutter Camera"" button",,2022-10-30 01:35:58,2022-10-30 01:36:00,1.400s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Group Chat/CheckCameraButton""), 0)",,"User click ""Check"" button on Camera",,2022-10-30 01:36:00,2022-10-30 01:36:01,1.120s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-19,,,,2022-10-30 01:36:01,2022-10-30 01:36:27,26.486s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:36:01,2022-10-30 01:36:20,19.123s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:36:20,2022-10-30 01:36:20,0.091s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), 0)",,"User click ""Type Message"" field",,2022-10-30 01:36:20,2022-10-30 01:36:22,1.389s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard""), 0)",,"User click ""Attachment"" button",,2022-10-30 01:36:22,2022-10-30 01:36:23,1.606s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/DocumentandVideoAttachment-Button""), 0)",,"User click ""Document & Video"" button",,2022-10-30 01:36:23,2022-10-30 01:36:24,0.162s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/Video Button-RECENT FILES""), 0)",,"User click ""Video"" menu in file",,2022-10-30 01:36:24,2022-10-30 01:36:25,1.749s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/MP4 FILE""), 0)",,User click Video with MP4 Format,,2022-10-30 01:36:25,2022-10-30 01:36:27,2.124s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-20,,,,2022-10-30 01:36:27,2022-10-30 01:37:07,39.906s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:36:28,2022-10-30 01:36:47,19.376s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:36:47,2022-10-30 01:36:47,0.108s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), 0)",,"User click ""Type Message"" field",,2022-10-30 01:36:47,2022-10-30 01:36:48,0.885s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard""), 0)",,"User click ""Attachment"" button",,2022-10-30 01:36:48,2022-10-30 01:36:50,1.525s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/DocumentandVideoAttachment-Button""), 0)",,"User click ""Document & Video"" button",,2022-10-30 01:36:50,2022-10-30 01:36:51,1.169s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/Video Button-RECENT FILES""), 0)",,"User click ""Video"" menu in file",,2022-10-30 01:36:51,2022-10-30 01:36:52,0.805s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/MOV Files2""), 0)",,User click Video with MOV Format,,2022-10-30 01:36:52,2022-10-30 01:36:54,2.012s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Group Chat/FormatFileNotAllowed""), 0)",,,,2022-10-30 01:36:54,2022-10-30 01:37:07,13.716s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-21,,,,2022-10-30 01:37:07,2022-10-30 01:37:34,26.231s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:37:08,2022-10-30 01:37:27,19.327s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:37:27,2022-10-30 01:37:27,0.108s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), 0)",,"User click ""Type Message"" field",,2022-10-30 01:37:27,2022-10-30 01:37:28,0.942s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard""), 0)",,"User click ""Attachment"" button",,2022-10-30 01:37:28,2022-10-30 01:37:30,1.600s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/DocumentandVideoAttachment-Button""), 0)",,Navigate user to user files,,2022-10-30 01:37:30,2022-10-30 01:37:30,0.128s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/DocumentsMenuOnFile""), 0)",,"User click ""Document & Video"" button",,2022-10-30 01:37:30,2022-10-30 01:37:33,3.170s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/XLSX Doc - Recent File""), 0)",,User click Document with XLSX Format,,2022-10-30 01:37:33,2022-10-30 01:37:34,0.749s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-22,,,,2022-10-30 01:37:34,2022-10-30 01:38:00,26.231s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:37:34,2022-10-30 01:37:53,19.303s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:37:53,2022-10-30 01:37:53,0.111s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/TypeMessage-Field""), 0)",,"User click ""Type Message"" field",,2022-10-30 01:37:53,2022-10-30 01:37:54,0.987s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard""), 0)",,"User click ""Attachment"" button",,2022-10-30 01:37:54,2022-10-30 01:37:56,1.606s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/DocumentandVideoAttachment-Button""), 0)",,Navigate user to user files,,2022-10-30 01:37:56,2022-10-30 01:37:57,1.183s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/Audio button - Files""), 0)",,"User click ""Audio"" button",,2022-10-30 01:37:57,2022-10-30 01:37:58,0.749s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/Audio File - Files""), 0)",,"User click ""Audio"" file",,2022-10-30 01:37:58,2022-10-30 01:38:00,2.058s,PASSED
+,,,,,,,
+Test Cases/GroupChat/TC_Group Chat_CS-23,,,,2022-10-30 01:38:00,2022-10-30 01:38:23,23.140s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:38:00,2022-10-30 01:38:19,18.418s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/GroupChatMenu""), 0)",,"User click ""Group Chat"" menu",,2022-10-30 01:38:19,2022-10-30 01:38:21,2.215s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/DropDownButtonOnTheUpperRightSide-Button""), 0)",,"User click ""Group Chat"" Drop down button on the upper right side",,2022-10-30 01:38:21,2022-10-30 01:38:22,0.918s,PASSED
+"tap(findTestObject(""cicle.staging/Group Chat/DropDownGroupChat-Button""), 0)",,"User click ""Group Chat"" button in dropdown menu",,2022-10-30 01:38:22,2022-10-30 01:38:23,1.301s,PASSED

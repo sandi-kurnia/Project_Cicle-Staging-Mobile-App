@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Board_CS-06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>facbbbda-dfc8-48a7-a94e-9270628076e8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09d59eb7-40db-4756-af27-fae0a35c40c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dadec5da-5032-4318-8fc0-3b33fcc6543e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96c76c70-c8d9-47ac-b96f-2d92ba99e7a8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sunday'</defaultValue>
+      <description></description>
+      <id>09d59eb7-40db-4756-af27-fae0a35c40c6</id>
+      <masked>false</masked>
+      <name>Day1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Monday'</defaultValue>
+      <description></description>
+      <id>dadec5da-5032-4318-8fc0-3b33fcc6543e</id>
+      <masked>false</masked>
+      <name>Day2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tuesday'</defaultValue>
+      <description></description>
+      <id>96c76c70-c8d9-47ac-b96f-2d92ba99e7a8</id>
+      <masked>false</masked>
+      <name>Day3</name>
+   </variable>
+</TestCaseEntity>

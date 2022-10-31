@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cicle Staging Mobile App" time="338.163" tests="11" failures="0" errors="1">
+   <testsuite name="Cicle Staging Mobile App" tests="11" failures="0" errors="1" time="338.163" skipped="0" timestamp="2022-10-29 14:24:59" hostname="sandikurnia - localhost" id="Test Suites/Cicle Staging Mobile App/Cicle Staging Mobile App">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_142447/Cicle Staging Mobile App/Cicle Staging Mobile App/20221029_142447"/>
+         <property name="logFiles" value="/Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_142447/Cicle Staging Mobile App/Cicle Staging Mobile App/20221029_142447/execution0.log, /Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_142447/Cicle Staging Mobile App/Cicle Staging Mobile App/20221029_142447/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sandikurnia - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Board/TC_Board_CS-02" time="34.606" classname="Test Cases/Board/TC_Board_CS-02" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:24:59 - [TEST_CASE][PASSED] - Test Cases/Board/TC_Board_CS-02: Test Cases/Board/TC_Board_CS-02
+
+2022-10-29 14:24:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:25:00 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:25:00 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:25:01 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/18.11.0/bin/node"
+
+2022-10-29 14:25:02 - [MESSAGE][INFO] - Appium server started on port 61,031
+
+2022-10-29 14:25:12 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:25:12 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:25:15 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:25:15 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:25:18 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:25:18 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:25:22 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:25:22 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:25:25 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:25:25 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:25:28 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:25:28 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:25:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:25:28 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:25:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:25:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:25:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:25:30 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Board-Menu"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:25:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:25:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:25:30 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/AddButtonOntheBottomRightSideBoard-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/AddButtonOntheBottomRightSideBoard-Button'
+
+2022-10-29 14:25:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:25:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/AddButtonOntheBottomRightSideBoard-Button'
+
+2022-10-29 14:25:31 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Addnewlist-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Addnewlist-Field'
+
+2022-10-29 14:25:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:25:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Addnewlist-Field'
+
+2022-10-29 14:25:31 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Board/Addnewlist-Field"), variable, 0): Text 'Project by Sandi' has been set to element 'Object Repository/cicle.staging/Board/Addnewlist-Field'
+
+2022-10-29 14:25:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:25:32 - [MESSAGE][PASSED] - Text 'Project by Sandi' has been set to element 'Object Repository/cicle.staging/Board/Addnewlist-Field'
+
+2022-10-29 14:25:32 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/SubmitButton-Board"), 0): Tapped on element 'Object Repository/cicle.staging/Board/SubmitButton-Board'
+
+2022-10-29 14:25:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:25:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/SubmitButton-Board']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Board/TC_Board_CS-03" time="26.645" classname="Test Cases/Board/TC_Board_CS-03" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:25:34 - [TEST_CASE][PASSED] - Test Cases/Board/TC_Board_CS-03: Test Cases/Board/TC_Board_CS-03
+
+2022-10-29 14:25:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:25:34 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:25:34 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:25:39 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:25:39 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:25:42 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:25:42 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:25:46 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:25:46 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:25:49 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:25:49 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:25:52 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:25:52 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:25:55 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:25:55 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:25:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:25:55 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:25:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:25:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:25:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:25:57 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Board-Menu"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:25:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:25:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:25:57 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/AddButtonOntheBottomRightSideBoard-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/AddButtonOntheBottomRightSideBoard-Button'
+
+2022-10-29 14:25:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:25:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/AddButtonOntheBottomRightSideBoard-Button'
+
+2022-10-29 14:25:59 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Addnewlist-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Addnewlist-Field'
+
+2022-10-29 14:26:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Addnewlist-Field'
+
+2022-10-29 14:26:00 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Board/Addnewlist-Field"), findTestData("Board/BoardlListName/BoardlListName").getValue(1, 2), 0): Text '' has been set to element 'Object Repository/cicle.staging/Board/Addnewlist-Field'
+
+2022-10-29 14:26:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:00 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/cicle.staging/Board/Addnewlist-Field'
+
+2022-10-29 14:26:00 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/SubmitButton-Board"), 0): Tapped on element 'Object Repository/cicle.staging/Board/SubmitButton-Board'
+
+2022-10-29 14:26:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/SubmitButton-Board']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Board/TC_Board_CS-04" time="24.97" classname="Test Cases/Board/TC_Board_CS-04" status="ERROR">
+         <error type="ERROR" message="Test Cases/Board/TC_Board_CS-04 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Board/cardUser' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Board/cardUser' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_Board_CS-04.run(TC_Board_CS-04:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667028287150.run(TempTestSuite1667028287150.groovy:36)
+"/>
+         <system-out><![CDATA[2022-10-29 14:26:00 - [TEST_CASE][ERROR] - Test Cases/Board/TC_Board_CS-04: Test Cases/Board/TC_Board_CS-04 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Board/cardUser' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Board/cardUser' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_Board_CS-04.run(TC_Board_CS-04:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667028287150.run(TempTestSuite1667028287150.groovy:36)
+
+
+2022-10-29 14:26:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:26:01 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:26:01 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:26:06 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:26:06 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:26:09 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:26:09 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:26:12 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:26:12 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:26:15 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:26:15 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:26:18 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:26:18 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:26:21 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:26:21 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:26:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:26:22 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:26:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:26:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:26:23 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Board-Menu"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:26:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:26:23 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Card/AddNewCard-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Card/AddNewCard-Button'
+
+2022-10-29 14:26:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Card/AddNewCard-Button'
+
+2022-10-29 14:26:25 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Card/YourCardName-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Card/YourCardName-Field'
+
+2022-10-29 14:26:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Card/YourCardName-Field'
+
+2022-10-29 14:26:25 - [TEST_STEP][ERROR] - setText(findTestObject("cicle.staging/Board/Card/YourCardName-Field"), findTestData("Board/cardUser").getValue(1, 1), 0): Test Cases/Board/TC_Board_CS-04 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Board/cardUser' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Board/cardUser' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_Board_CS-04.run(TC_Board_CS-04:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667028287150.run(TempTestSuite1667028287150.groovy:36)
+
+
+2022-10-29 14:26:25 - [MESSAGE][ERROR] - Test Cases/Board/TC_Board_CS-04 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Board/cardUser' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Board/cardUser' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_Board_CS-04.run(TC_Board_CS-04:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667028287150.run(TempTestSuite1667028287150.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-10-29 14:26:00 - [TEST_CASE][ERROR] - Test Cases/Board/TC_Board_CS-04: Test Cases/Board/TC_Board_CS-04 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Board/cardUser' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Board/cardUser' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_Board_CS-04.run(TC_Board_CS-04:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667028287150.run(TempTestSuite1667028287150.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Board/TC_Board_CS-05" time="24.71" classname="Test Cases/Board/TC_Board_CS-05" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:26:25 - [TEST_CASE][PASSED] - Test Cases/Board/TC_Board_CS-05: Test Cases/Board/TC_Board_CS-05
+
+2022-10-29 14:26:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:26:26 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:26:26 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:26:31 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:26:31 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:26:34 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:26:34 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:26:37 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:26:37 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:26:40 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:26:40 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:26:43 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:26:43 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:26:46 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:26:46 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:26:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:26:46 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:26:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:26:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:26:48 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Board-Menu"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:26:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:26:48 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Card/AddNewCard-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Card/AddNewCard-Button'
+
+2022-10-29 14:26:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Card/AddNewCard-Button'
+
+2022-10-29 14:26:50 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Card/YourCardName-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Card/YourCardName-Field'
+
+2022-10-29 14:26:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Card/YourCardName-Field'
+
+2022-10-29 14:26:50 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Board/Card/YourCardName-Field"), findTestData("Board/Card/CardName").getValue(1, 2), 0): Text '' has been set to element 'Object Repository/cicle.staging/Board/Card/YourCardName-Field'
+
+2022-10-29 14:26:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:50 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/cicle.staging/Board/Card/YourCardName-Field'
+
+2022-10-29 14:26:50 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Check-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Check-Button'
+
+2022-10-29 14:26:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:26:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Check-Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Board/TC_Board_CS-06" time="30.732" classname="Test Cases/Board/TC_Board_CS-06" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:26:50 - [TEST_CASE][PASSED] - Test Cases/Board/TC_Board_CS-06: Test Cases/Board/TC_Board_CS-06
+
+2022-10-29 14:26:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:26:50 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:26:50 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:26:55 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:26:55 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:26:58 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:26:58 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:27:02 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:27:02 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:27:05 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:27:05 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:27:08 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:27:08 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:27:11 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:27:11 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:27:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:27:11 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:27:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:27:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:27:12 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Board-Menu"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:27:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:27:13 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Card/userCardAccount"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:27:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:27:13 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Label/Label-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Label/Label-Button'
+
+2022-10-29 14:27:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Label/Label-Button'
+
+2022-10-29 14:27:15 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Label/Label-CreateNewLabel"), 0, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Board/Label/Label-CreateNewLabel'
+
+2022-10-29 14:27:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Label/Label-CreateNewLabel'
+
+2022-10-29 14:27:16 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Label/NameYourLabel-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Label/NameYourLabel-Field'
+
+2022-10-29 14:27:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Label/NameYourLabel-Field'
+
+2022-10-29 14:27:16 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Board/Label/NameYourLabel-Field"), findTestData("Board/Label/LabelName").getValue(1, 1), 0): Text 'Sunday' has been set to element 'Object Repository/cicle.staging/Board/Label/NameYourLabel-Field'
+
+2022-10-29 14:27:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:17 - [MESSAGE][PASSED] - Text 'Sunday' has been set to element 'Object Repository/cicle.staging/Board/Label/NameYourLabel-Field'
+
+2022-10-29 14:27:17 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Label/LabelColor-Green01"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Label/LabelColor-Green01'
+
+2022-10-29 14:27:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Label/LabelColor-Green01'
+
+2022-10-29 14:27:18 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-10-29 14:27:18 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-10-29 14:27:18 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Label/SubmitLabel-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Label/SubmitLabel-Button'
+
+2022-10-29 14:27:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Label/SubmitLabel-Button'
+
+2022-10-29 14:27:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("cicle.staging/Board/Label/Assertion-Label-CreatingLabelForThisBoardSuccess"), 0): Element 'Object Repository/cicle.staging/Board/Label/Assertion-Label-CreatingLabelForThisBoardSuccess' is visible
+
+2022-10-29 14:27:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:21 - [MESSAGE][PASSED] - Element 'Object Repository/cicle.staging/Board/Label/Assertion-Label-CreatingLabelForThisBoardSuccess' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Board/TC_Board_CS-07" time="30.48" classname="Test Cases/Board/TC_Board_CS-07" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:27:21 - [TEST_CASE][PASSED] - Test Cases/Board/TC_Board_CS-07: Test Cases/Board/TC_Board_CS-07
+
+2022-10-29 14:27:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:27:21 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:27:21 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:27:26 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:27:26 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:27:29 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:27:29 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:27:33 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:27:33 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:27:36 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:27:36 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:27:39 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:27:39 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:27:42 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:27:42 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:27:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:27:42 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:27:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:27:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:27:43 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Board-Menu"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:27:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:27:43 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Card/userCardAccount"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:27:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:27:45 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Label/Label-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Label/Label-Button'
+
+2022-10-29 14:27:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Label/Label-Button'
+
+2022-10-29 14:27:48 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Label/Label-CreateNewLabel"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Board/Label/Label-CreateNewLabel'
+
+2022-10-29 14:27:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Label/Label-CreateNewLabel'
+
+2022-10-29 14:27:48 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Label/NameYourLabel-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Label/NameYourLabel-Field'
+
+2022-10-29 14:27:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Label/NameYourLabel-Field'
+
+2022-10-29 14:27:49 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Board/Label/NameYourLabel-Field"), findTestData("Board/Label/LabelName").getValue(1, 2), 0): Text '' has been set to element 'Object Repository/cicle.staging/Board/Label/NameYourLabel-Field'
+
+2022-10-29 14:27:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:50 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/cicle.staging/Board/Label/NameYourLabel-Field'
+
+2022-10-29 14:27:50 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Label/LabelColor-Navy01"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Label/LabelColor-Navy01'
+
+2022-10-29 14:27:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Label/LabelColor-Navy01'
+
+2022-10-29 14:27:50 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-10-29 14:27:50 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-10-29 14:27:50 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Label/SubmitLabel-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Label/SubmitLabel-Button'
+
+2022-10-29 14:27:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:27:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Label/SubmitLabel-Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Board/TC_Board_CS-08" time="30.247" classname="Test Cases/Board/TC_Board_CS-08" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:27:51 - [TEST_CASE][PASSED] - Test Cases/Board/TC_Board_CS-08: Test Cases/Board/TC_Board_CS-08
+
+2022-10-29 14:27:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:27:52 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:27:52 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:27:57 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:27:57 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:28:00 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:28:00 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:28:03 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:28:03 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:28:06 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:28:06 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:28:09 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:28:09 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:28:12 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:28:12 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:28:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:28:12 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:28:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:28:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:28:14 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Board-Menu"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:28:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:28:14 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Card/userCardAccount"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:28:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:28:15 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddNewComment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddNewComment-Button'
+
+2022-10-29 14:28:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddNewComment-Button'
+
+2022-10-29 14:28:18 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddComment2-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:28:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:28:18 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Board/Comment/AddComment2-Field"), findTestData("Board/Comment/Comment").getValue(1, 1), 0): Text 'Ini merupakan project dari Cilsy' has been set to element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:28:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:20 - [MESSAGE][PASSED] - Text 'Ini merupakan project dari Cilsy' has been set to element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:28:20 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/SubmitButton-Comment"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/SubmitButton-Comment'
+
+2022-10-29 14:28:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/SubmitButton-Comment']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Board/TC_Board_CS-09" time="30.805" classname="Test Cases/Board/TC_Board_CS-09" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:28:22 - [TEST_CASE][PASSED] - Test Cases/Board/TC_Board_CS-09: Test Cases/Board/TC_Board_CS-09
+
+2022-10-29 14:28:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:28:22 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:28:22 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:28:27 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:28:27 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:28:30 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:28:30 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:28:33 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:28:33 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:28:36 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:28:36 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:28:39 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:28:39 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:28:43 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:28:43 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:28:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:28:43 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:28:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:28:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:28:44 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Board-Menu"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:28:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:28:44 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Card/userCardAccount"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:28:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:28:48 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddNewComment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddNewComment-Button'
+
+2022-10-29 14:28:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddNewComment-Button'
+
+2022-10-29 14:28:49 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddComment2-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:28:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:28:49 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Board/Comment/AddComment2-Field"), "", 0): Text '' has been set to element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:28:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:51 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:28:51 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/SubmitButton-Comment"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/SubmitButton-Comment'
+
+2022-10-29 14:28:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/SubmitButton-Comment'
+
+2022-10-29 14:28:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("cicle.staging/Board/Comment/Assertion-CommentCantBeEmpty"), 0, STOP_ON_FAILURE): Element 'Object Repository/cicle.staging/Board/Comment/Assertion-CommentCantBeEmpty' is visible
+
+2022-10-29 14:28:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:28:52 - [MESSAGE][PASSED] - Element 'Object Repository/cicle.staging/Board/Comment/Assertion-CommentCantBeEmpty' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Board/TC_Board_CS-10" time="35.845" classname="Test Cases/Board/TC_Board_CS-10" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:28:52 - [TEST_CASE][PASSED] - Test Cases/Board/TC_Board_CS-10: Test Cases/Board/TC_Board_CS-10
+
+2022-10-29 14:28:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:28:53 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:28:53 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:28:58 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:28:58 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:29:02 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:29:02 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:29:05 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:29:05 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:29:08 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:29:08 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:29:11 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:29:11 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:29:14 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:29:14 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:29:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:29:15 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:29:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:29:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:29:16 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Board-Menu"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:29:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:29:16 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Card/userCardAccount"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:29:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:29:20 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddNewComment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddNewComment-Button'
+
+2022-10-29 14:29:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddNewComment-Button'
+
+2022-10-29 14:29:21 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddComment2-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:29:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:29:21 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button'
+
+2022-10-29 14:29:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button'
+
+2022-10-29 14:29:24 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddImageOnComment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddImageOnComment-Button'
+
+2022-10-29 14:29:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddImageOnComment-Button'
+
+2022-10-29 14:29:25 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddImageByURL-Comment"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddImageByURL-Comment'
+
+2022-10-29 14:29:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddImageByURL-Comment'
+
+2022-10-29 14:29:26 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/InsertLinkHere-Image-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:29:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:29:27 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Board/Comment/InsertLinkHere-Image-Field"), Url, 0): Text 'https://i1.wp.com/www.99.co/blog/indonesia/wp-content/uploads/2022/07/Luffy-Gear-5.jpg' has been set to element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:29:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:27 - [MESSAGE][PASSED] - Text 'https://i1.wp.com/www.99.co/blog/indonesia/wp-content/uploads/2022/07/Luffy-Gear-5.jpg' has been set to element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:29:27 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/Comment-SelectInsert-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/Comment-SelectInsert-Button'
+
+2022-10-29 14:29:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/Comment-SelectInsert-Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Board/TC_Board_CS-11" time="34.358" classname="Test Cases/Board/TC_Board_CS-11" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:29:28 - [TEST_CASE][PASSED] - Test Cases/Board/TC_Board_CS-11: Test Cases/Board/TC_Board_CS-11
+
+2022-10-29 14:29:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:29:29 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:29:29 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:29:34 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:29:34 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:29:37 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:29:37 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:29:40 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:29:40 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:29:43 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:29:43 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:29:46 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:29:46 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:29:49 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:29:49 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:29:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:29:49 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:29:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:29:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:29:51 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Board-Menu"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:29:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:29:51 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Card/userCardAccount"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:29:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:29:53 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddNewComment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddNewComment-Button'
+
+2022-10-29 14:29:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddNewComment-Button'
+
+2022-10-29 14:29:54 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddComment2-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:29:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:29:54 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button'
+
+2022-10-29 14:29:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button'
+
+2022-10-29 14:29:55 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddImageOnComment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddImageOnComment-Button'
+
+2022-10-29 14:29:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddImageOnComment-Button'
+
+2022-10-29 14:29:58 - [TEST_STEP][PASSED] - checkElement(findTestObject("cicle.staging/Board/Comment/AddImageByURL-Comment"), 0): Element 'Object Repository/cicle.staging/Board/Comment/AddImageByURL-Comment' is checked
+
+2022-10-29 14:29:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:59 - [MESSAGE][PASSED] - Element 'Object Repository/cicle.staging/Board/Comment/AddImageByURL-Comment' is checked
+
+2022-10-29 14:29:59 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/InsertLinkHere-Image-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:29:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:29:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:29:59 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Board/Comment/InsertLinkHere-Image-Field"), BlankURL, 0): Text 'Sekolah QA' has been set to element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:29:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:00 - [MESSAGE][PASSED] - Text 'Sekolah QA' has been set to element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:30:00 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/Comment-SelectInsert-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/Comment-SelectInsert-Button'
+
+2022-10-29 14:30:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/Comment-SelectInsert-Button'
+
+2022-10-29 14:30:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("cicle.staging/Board/Comment/AssertionNotValidURL-Comment"), 0): Element 'Object Repository/cicle.staging/Board/Comment/AssertionNotValidURL-Comment' is visible
+
+2022-10-29 14:30:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:03 - [MESSAGE][PASSED] - Element 'Object Repository/cicle.staging/Board/Comment/AssertionNotValidURL-Comment' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Board/TC_Board_CS-12" time="34.212" classname="Test Cases/Board/TC_Board_CS-12" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:30:03 - [TEST_CASE][PASSED] - Test Cases/Board/TC_Board_CS-12: Test Cases/Board/TC_Board_CS-12
+
+2022-10-29 14:30:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:30:03 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:30:03 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:30:08 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:30:08 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:30:11 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:30:11 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:30:14 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:30:14 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:30:17 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:30:17 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:30:20 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:30:20 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 3, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:30:24 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:30:24 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 3, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:30:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:30:24 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:30:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:30:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:30:25 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Board-Menu"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:30:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Board-Menu'
+
+2022-10-29 14:30:25 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Card/userCardAccount"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:30:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Card/userCardAccount'
+
+2022-10-29 14:30:26 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddNewComment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddNewComment-Button'
+
+2022-10-29 14:30:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddNewComment-Button'
+
+2022-10-29 14:30:29 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddComment2-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:30:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddComment2-Field'
+
+2022-10-29 14:30:29 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button'
+
+2022-10-29 14:30:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button'
+
+2022-10-29 14:30:32 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/AddImageOnComment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddImageOnComment-Button'
+
+2022-10-29 14:30:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/AddImageOnComment-Button'
+
+2022-10-29 14:30:32 - [TEST_STEP][PASSED] - checkElement(findTestObject("cicle.staging/Board/Comment/AddImageByURL-Comment"), 0): Element 'Object Repository/cicle.staging/Board/Comment/AddImageByURL-Comment' is checked
+
+2022-10-29 14:30:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:33 - [MESSAGE][PASSED] - Element 'Object Repository/cicle.staging/Board/Comment/AddImageByURL-Comment' is checked
+
+2022-10-29 14:30:34 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/InsertLinkHere-Image-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:30:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:30:34 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Board/Comment/InsertLinkHere-Image-Field"), findTestData("Board/URL/URL").getValue(1, 3), 0): Text 'SekolahQA' has been set to element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:30:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:34 - [MESSAGE][PASSED] - Text 'SekolahQA' has been set to element 'Object Repository/cicle.staging/Board/Comment/InsertLinkHere-Image-Field'
+
+2022-10-29 14:30:34 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Board/Comment/Comment-SelectInsert-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Board/Comment/Comment-SelectInsert-Button'
+
+2022-10-29 14:30:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Board/Comment/Comment-SelectInsert-Button'
+
+2022-10-29 14:30:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("cicle.staging/Board/Comment/AssertionNotValidURL-Comment"), 0): Element 'Object Repository/cicle.staging/Board/Comment/AssertionNotValidURL-Comment' is visible
+
+2022-10-29 14:30:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:30:37 - [MESSAGE][PASSED] - Element 'Object Repository/cicle.staging/Board/Comment/AssertionNotValidURL-Comment' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-29 14:24:59 - [TEST_SUITE][ERROR] - Cicle Staging Mobile App: Test Cases/Board/TC_Board_CS-04 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Board/cardUser' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Board/cardUser' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_Board_CS-04.run(TC_Board_CS-04:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667028287150.run(TempTestSuite1667028287150.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-10-29 14:24:59 - [TEST_SUITE][ERROR] - Cicle Staging Mobile App: Test Cases/Board/TC_Board_CS-04 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Board/cardUser' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Board/cardUser' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_Board_CS-04.run(TC_Board_CS-04:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667028287150.run(TempTestSuite1667028287150.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

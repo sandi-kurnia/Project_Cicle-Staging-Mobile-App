@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Board_CS-02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cea4fee7-716c-4946-b1c2-16661fe92700</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a9a2221b-18c8-4f5f-a2bb-aef7f8ed37d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Project by Sandi'</defaultValue>
+      <description></description>
+      <id>a9a2221b-18c8-4f5f-a2bb-aef7f8ed37d1</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Board_CS-10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcf96f0c-b43c-436d-996b-96d94d6b3cc7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00dfb058-9e65-4f55-9458-b87e32eb92b6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://i1.wp.com/www.99.co/blog/indonesia/wp-content/uploads/2022/07/Luffy-Gear-5.jpg'</defaultValue>
+      <description></description>
+      <id>00dfb058-9e65-4f55-9458-b87e32eb92b6</id>
+      <masked>false</masked>
+      <name>Url</name>
+   </variable>
+</TestCaseEntity>

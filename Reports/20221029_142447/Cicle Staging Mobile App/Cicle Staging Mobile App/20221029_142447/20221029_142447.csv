@@ -1,0 +1,118 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cicle Staging Mobile App,,,,2022-10-29 14:24:59,2022-10-29 14:30:37,5m - 38.163s,ERROR
+,,,,,,,
+Test Cases/Board/TC_Board_CS-02,,,,2022-10-29 14:24:59,2022-10-29 14:25:34,34.606s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 14:24:59,2022-10-29 14:25:30,30.018s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Board-Menu""), 0)",,"User click ""Board"" menu",,2022-10-29 14:25:30,2022-10-29 14:25:30,0.106s,PASSED
+"tap(findTestObject(""cicle.staging/Board/AddButtonOntheBottomRightSideBoard-Button""), 0)",,"User click button ""+"" button on the bottom right corner",,2022-10-29 14:25:30,2022-10-29 14:25:31,1.627s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Addnewlist-Field""), 0)",,"User click ""Add New List"" field",,2022-10-29 14:25:31,2022-10-29 14:25:31,0.138s,PASSED
+"setText(findTestObject(""cicle.staging/Board/Addnewlist-Field""), variable, 0)",,"User input text in ""Add New List"" field",,2022-10-29 14:25:31,2022-10-29 14:25:32,0.129s,PASSED
+"tap(findTestObject(""cicle.staging/Board/SubmitButton-Board""), 0)",,"User click ""Submit"" button",,2022-10-29 14:25:32,2022-10-29 14:25:34,2.167s,PASSED
+,,,,,,,
+Test Cases/Board/TC_Board_CS-03,,,,2022-10-29 14:25:34,2022-10-29 14:26:00,26.645s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 14:25:34,2022-10-29 14:25:57,23.018s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Board-Menu""), 0)",,"User click ""Board"" menu",,2022-10-29 14:25:57,2022-10-29 14:25:57,0.135s,PASSED
+"tap(findTestObject(""cicle.staging/Board/AddButtonOntheBottomRightSideBoard-Button""), 0)",,"User click button ""+"" button on the bottom right corner",,2022-10-29 14:25:57,2022-10-29 14:25:59,2.308s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Addnewlist-Field""), 0)",,"User click ""Add New List"" field",,2022-10-29 14:25:59,2022-10-29 14:26:00,0.141s,PASSED
+"setText(findTestObject(""cicle.staging/Board/Addnewlist-Field""), findTestData(""Board/BoardlListName/BoardlListName"").getValue(1, 2), 0)",,"User Input Empty Text on ""Add New List"" field",,2022-10-29 14:26:00,2022-10-29 14:26:00,0.121s,PASSED
+"tap(findTestObject(""cicle.staging/Board/SubmitButton-Board""), 0)",,"User click ""Submit"" button",,2022-10-29 14:26:00,2022-10-29 14:26:00,0.627s,PASSED
+,,,,,,,
+Test Cases/Board/TC_Board_CS-04,,,,2022-10-29 14:26:00,2022-10-29 14:26:25,24.970s,ERROR
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 14:26:01,2022-10-29 14:26:23,22.438s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Board-Menu""), 0)",,"User click ""Board"" menu",,2022-10-29 14:26:23,2022-10-29 14:26:23,0.147s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Card/AddNewCard-Button""), 0)",,"User click ""Add New Card"" button",,2022-10-29 14:26:23,2022-10-29 14:26:25,1.971s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Card/YourCardName-Field""), 0)",,"User click ""Your Card Name"" field",,2022-10-29 14:26:25,2022-10-29 14:26:25,0.160s,PASSED
+"setText(findTestObject(""cicle.staging/Board/Card/YourCardName-Field""), findTestData(""Board/cardUser"").getValue(1, 1), 0)",,"User Input Text in ""Your Card Name"" field",,2022-10-29 14:26:25,2022-10-29 14:26:25,0.056s,ERROR
+,,,,,,,
+Test Cases/Board/TC_Board_CS-05,,,,2022-10-29 14:26:25,2022-10-29 14:26:50,24.710s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 14:26:26,2022-10-29 14:26:48,22.162s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Board-Menu""), 0)",,"User click ""Board"" menu",,2022-10-29 14:26:48,2022-10-29 14:26:48,0.112s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Card/AddNewCard-Button""), 0)",,"User click ""Add New Card"" button",,2022-10-29 14:26:48,2022-10-29 14:26:50,1.796s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Card/YourCardName-Field""), 0)",,"User click ""Your Card Name"" field",,2022-10-29 14:26:50,2022-10-29 14:26:50,0.148s,PASSED
+"setText(findTestObject(""cicle.staging/Board/Card/YourCardName-Field""), findTestData(""Board/Card/CardName"").getValue(1, 2), 0)",,"User Input Empty Text in ""Your Card Name"" field",,2022-10-29 14:26:50,2022-10-29 14:26:50,0.108s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Check-Button""), 0)",,"User click ""Check"" button",,2022-10-29 14:26:50,2022-10-29 14:26:50,0.161s,PASSED
+,,,,,,,
+Test Cases/Board/TC_Board_CS-06,,,,2022-10-29 14:26:50,2022-10-29 14:27:21,30.732s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 14:26:50,2022-10-29 14:27:12,22.066s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Board-Menu""), 0)",,"User click ""Board"" menu",,2022-10-29 14:27:12,2022-10-29 14:27:13,0.124s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Card/userCardAccount""), 0)",,"User click one of ""Card Name""",,2022-10-29 14:27:13,2022-10-29 14:27:13,0.900s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Label/Label-Button""), 0)",,"User click ""Label"" button",,2022-10-29 14:27:13,2022-10-29 14:27:15,1.607s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Label/Label-CreateNewLabel""), 0, OPTIONAL)",,"User click ""New Label"" button",,2022-10-29 14:27:15,2022-10-29 14:27:16,0.774s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Label/NameYourLabel-Field""), 0)",,"User click ""Name your label"" field",,2022-10-29 14:27:16,2022-10-29 14:27:16,0.146s,PASSED
+"setText(findTestObject(""cicle.staging/Board/Label/NameYourLabel-Field""), findTestData(""Board/Label/LabelName"").getValue(1, 1), 0)",,"User Input Text ""Name of Label""",,2022-10-29 14:27:16,2022-10-29 14:27:17,0.846s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Label/LabelColor-Green01""), 0)",,"User click one of ""Label Color""",,2022-10-29 14:27:17,2022-10-29 14:27:18,0.970s,PASSED
+hideKeyboard(),,User Hide Keyboard,,2022-10-29 14:27:18,2022-10-29 14:27:18,0.453s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Label/SubmitLabel-Button""), 0)",,User click Submit Button,,2022-10-29 14:27:18,2022-10-29 14:27:21,2.450s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Board/Label/Assertion-Label-CreatingLabelForThisBoardSuccess""), 0)",,User get notificiation creating Label for this Board Success,,2022-10-29 14:27:21,2022-10-29 14:27:21,0.102s,PASSED
+,,,,,,,
+Test Cases/Board/TC_Board_CS-07,,,,2022-10-29 14:27:21,2022-10-29 14:27:51,30.480s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 14:27:21,2022-10-29 14:27:43,22.240s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Board-Menu""), 0)",,"User click ""Board"" menu",,2022-10-29 14:27:43,2022-10-29 14:27:43,0.116s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Card/userCardAccount""), 0)",,"User click one of ""Card Name""",,2022-10-29 14:27:43,2022-10-29 14:27:45,1.263s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Label/Label-Button""), 0)",,"User click ""Label"" button",,2022-10-29 14:27:45,2022-10-29 14:27:48,2.835s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Label/Label-CreateNewLabel""), 3, OPTIONAL)",,"User click ""New Label"" button",,2022-10-29 14:27:48,2022-10-29 14:27:48,0.652s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Label/NameYourLabel-Field""), 0)",,"User click ""Name your label"" field",,2022-10-29 14:27:48,2022-10-29 14:27:49,0.655s,PASSED
+"setText(findTestObject(""cicle.staging/Board/Label/NameYourLabel-Field""), findTestData(""Board/Label/LabelName"").getValue(1, 2), 0)",,"User Input Empty ""Name of Label""",,2022-10-29 14:27:49,2022-10-29 14:27:50,0.789s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Label/LabelColor-Navy01""), 0)",,"User click one of ""Label Color""",,2022-10-29 14:27:50,2022-10-29 14:27:50,0.131s,PASSED
+hideKeyboard(),,User Hide Keyboard,,2022-10-29 14:27:50,2022-10-29 14:27:50,0.393s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Label/SubmitLabel-Button""), 0)",,"User click ""Submit"" Button",,2022-10-29 14:27:50,2022-10-29 14:27:51,1.117s,PASSED
+,,,,,,,
+Test Cases/Board/TC_Board_CS-08,,,,2022-10-29 14:27:51,2022-10-29 14:28:22,30.247s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 14:27:52,2022-10-29 14:28:14,22.229s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Board-Menu""), 0)",,"User click ""Board"" menu",,2022-10-29 14:28:14,2022-10-29 14:28:14,0.155s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Card/userCardAccount""), 0)",,"User click one of ""Card Name""",,2022-10-29 14:28:14,2022-10-29 14:28:15,0.869s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddNewComment-Button""), 0)",,"User click ""Add new comment"" field",,2022-10-29 14:28:15,2022-10-29 14:28:18,2.804s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddComment2-Field""), 0)",,"User click ""Tell me your comment here"" field",,2022-10-29 14:28:18,2022-10-29 14:28:18,0.146s,PASSED
+"setText(findTestObject(""cicle.staging/Board/Comment/AddComment2-Field""), findTestData(""Board/Comment/Comment"").getValue(1, 1), 0)",,"User input text comment in ""Tell me your comment here"" field",,2022-10-29 14:28:18,2022-10-29 14:28:20,1.773s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/SubmitButton-Comment""), 0)",,"User click "" Submit "" button",,2022-10-29 14:28:20,2022-10-29 14:28:22,2.038s,PASSED
+,,,,,,,
+Test Cases/Board/TC_Board_CS-09,,,,2022-10-29 14:28:22,2022-10-29 14:28:52,30.805s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 14:28:22,2022-10-29 14:28:44,22.177s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Board-Menu""), 0)",,"User click ""Board"" menu",,2022-10-29 14:28:44,2022-10-29 14:28:44,0.136s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Card/userCardAccount""), 0)",,"User click one of ""Card Name""",,2022-10-29 14:28:44,2022-10-29 14:28:48,3.487s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddNewComment-Button""), 0)",,"User click ""Add new comment"" field",,2022-10-29 14:28:48,2022-10-29 14:28:49,1.122s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddComment2-Field""), 0)",,"User click ""Tell me your comment here"" field",,2022-10-29 14:28:49,2022-10-29 14:28:49,0.166s,PASSED
+"setText(findTestObject(""cicle.staging/Board/Comment/AddComment2-Field""), """", 0)",,"User input empty text comment in ""Tell me your comment here"" field",,2022-10-29 14:28:49,2022-10-29 14:28:51,1.788s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/SubmitButton-Comment""), 0)",,"User click "" Submit "" button",,2022-10-29 14:28:51,2022-10-29 14:28:52,1.569s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Board/Comment/Assertion-CommentCantBeEmpty""), 0, STOP_ON_FAILURE)",,"Showing alert message ""comments can't be empty""",,2022-10-29 14:28:52,2022-10-29 14:28:52,0.133s,PASSED
+,,,,,,,
+Test Cases/Board/TC_Board_CS-10,,,,2022-10-29 14:28:52,2022-10-29 14:29:28,35.845s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 14:28:53,2022-10-29 14:29:16,23.189s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Board-Menu""), 0)",,"User click ""Board"" Menu",,2022-10-29 14:29:16,2022-10-29 14:29:16,0.095s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Card/userCardAccount""), 0)",,"User click one of ""Card Name""",,2022-10-29 14:29:16,2022-10-29 14:29:20,3.992s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddNewComment-Button""), 0)",,"User click ""Add new comment"" field",,2022-10-29 14:29:20,2022-10-29 14:29:21,1.133s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddComment2-Field""), 0)",,"User click ""Tell your comment here"" field",,2022-10-29 14:29:21,2022-10-29 14:29:21,0.158s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button""), 0, STOP_ON_FAILURE)",,"User click ""+"" on toolbar add comment",,2022-10-29 14:29:21,2022-10-29 14:29:24,2.741s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddImageOnComment-Button""), 0)",,"User click ""Image""button",,2022-10-29 14:29:24,2022-10-29 14:29:25,0.664s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddImageByURL-Comment""), 0)",,"User click ""By URL"" button",,2022-10-29 14:29:25,2022-10-29 14:29:26,1.015s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/InsertLinkHere-Image-Field""), 0)",,"User click ""URL""field",,2022-10-29 14:29:26,2022-10-29 14:29:27,0.833s,PASSED
+"setText(findTestObject(""cicle.staging/Board/Comment/InsertLinkHere-Image-Field""), Url, 0)",,"User input valid ""URL""",,2022-10-29 14:29:27,2022-10-29 14:29:27,0.160s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/Comment-SelectInsert-Button""), 0)",,"User click ""Insert"" Button",,2022-10-29 14:29:27,2022-10-29 14:29:28,1.533s,PASSED
+,,,,,,,
+Test Cases/Board/TC_Board_CS-11,,,,2022-10-29 14:29:28,2022-10-29 14:30:03,34.358s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 14:29:29,2022-10-29 14:29:51,22.301s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Board-Menu""), 0)",,"User click ""Board"" Menu",,2022-10-29 14:29:51,2022-10-29 14:29:51,0.103s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Card/userCardAccount""), 0)",,"User click one of ""Card Name""",,2022-10-29 14:29:51,2022-10-29 14:29:53,2.162s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddNewComment-Button""), 0)",,"User click ""Add new comment"" field",,2022-10-29 14:29:53,2022-10-29 14:29:54,0.902s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddComment2-Field""), 0)",,"User click ""Tell your comment here"" field",,2022-10-29 14:29:54,2022-10-29 14:29:54,0.139s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button""), 0, STOP_ON_FAILURE)",,"User click ""+"" on toolbar add comment",,2022-10-29 14:29:54,2022-10-29 14:29:55,1.302s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddImageOnComment-Button""), 0)",,"User click ""Image""button",,2022-10-29 14:29:55,2022-10-29 14:29:58,2.240s,PASSED
+"checkElement(findTestObject(""cicle.staging/Board/Comment/AddImageByURL-Comment""), 0)",,"User click ""By URL"" button",,2022-10-29 14:29:58,2022-10-29 14:29:59,1.154s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/InsertLinkHere-Image-Field""), 0)",,"User click ""URL""field",,2022-10-29 14:29:59,2022-10-29 14:29:59,0.134s,PASSED
+"setText(findTestObject(""cicle.staging/Board/Comment/InsertLinkHere-Image-Field""), BlankURL, 0)",,"User input invalid ""URL""",,2022-10-29 14:29:59,2022-10-29 14:30:00,0.710s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/Comment-SelectInsert-Button""), 0)",,"User click ""Insert"" button",,2022-10-29 14:30:00,2022-10-29 14:30:03,2.817s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Board/Comment/AssertionNotValidURL-Comment""), 0)",,"Showing alert ""Not Valid URL""",,2022-10-29 14:30:03,2022-10-29 14:30:03,0.103s,PASSED
+,,,,,,,
+Test Cases/Board/TC_Board_CS-12,,,,2022-10-29 14:30:03,2022-10-29 14:30:37,34.212s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 14:30:03,2022-10-29 14:30:25,22.120s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Board-Menu""), 0)",,,,2022-10-29 14:30:25,2022-10-29 14:30:25,0.094s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Card/userCardAccount""), 0)",,,,2022-10-29 14:30:25,2022-10-29 14:30:26,0.987s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddNewComment-Button""), 0)",,,,2022-10-29 14:30:26,2022-10-29 14:30:29,2.653s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddComment2-Field""), 0)",,,,2022-10-29 14:30:29,2022-10-29 14:30:29,0.180s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddAttachmentPopUPKeyboard-Button""), 0, STOP_ON_FAILURE)",,,,2022-10-29 14:30:29,2022-10-29 14:30:32,2.755s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/AddImageOnComment-Button""), 0)",,,,2022-10-29 14:30:32,2022-10-29 14:30:32,0.703s,PASSED
+"checkElement(findTestObject(""cicle.staging/Board/Comment/AddImageByURL-Comment""), 0)",,,,2022-10-29 14:30:32,2022-10-29 14:30:34,1.121s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/InsertLinkHere-Image-Field""), 0)",,,,2022-10-29 14:30:34,2022-10-29 14:30:34,0.793s,PASSED
+"setText(findTestObject(""cicle.staging/Board/Comment/InsertLinkHere-Image-Field""), findTestData(""Board/URL/URL"").getValue(1, 3), 0)",,,,2022-10-29 14:30:34,2022-10-29 14:30:34,0.128s,PASSED
+"tap(findTestObject(""cicle.staging/Board/Comment/Comment-SelectInsert-Button""), 0)",,,,2022-10-29 14:30:34,2022-10-29 14:30:37,2.323s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Board/Comment/AssertionNotValidURL-Comment""), 0)",,,,2022-10-29 14:30:37,2022-10-29 14:30:37,0.098s,PASSED

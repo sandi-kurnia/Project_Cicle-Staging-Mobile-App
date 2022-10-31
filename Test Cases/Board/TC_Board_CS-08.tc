@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Board_CS-08</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fbf6fb5-33f6-4b54-8bee-9bec5943fd0e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66e476d8-57be-4a27-9a5b-dcb133a0f9e2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Project dari cilsy'</defaultValue>
+      <description></description>
+      <id>66e476d8-57be-4a27-9a5b-dcb133a0f9e2</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+</TestCaseEntity>

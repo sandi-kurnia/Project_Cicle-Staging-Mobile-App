@@ -1,0 +1,134 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cicle Staging Mobile App - Blast,,,,2022-10-30 01:43:34,2022-10-30 01:48:46,5m - 12.315s,PASSED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-24,,,,2022-10-30 01:43:34,2022-10-30 01:44:10,36.279s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:43:35,2022-10-30 01:44:01,26.530s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/Menu/BlastMenu""), 0)",,"User click ""Blast"" menu",,2022-10-30 01:44:01,2022-10-30 01:44:01,0.155s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-AddButtonOnTheBottomRightSide""), 0)",,"User click ""+"" button on the bottom right corner",,2022-10-30 01:44:01,2022-10-30 01:44:03,1.892s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-TypeATitleField""), 0)",,"User click ""Type a Title"" field",,2022-10-30 01:44:03,2022-10-30 01:44:05,1.663s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Post/POST-TypeATitleField""), findTestData(""Blast/Post/PostData"").getValue(1, 1), 0)",,"User input text in ""Type a Title"" field",,2022-10-30 01:44:05,2022-10-30 01:44:06,0.841s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-YourTextHereField""), 0)",,"User click ""Description"" field",,2022-10-30 01:44:06,2022-10-30 01:44:07,0.947s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Post/Post-DescriptionField1""), findTestData(""Blast/Post/PostData"").getValue(2, 1), 0, STOP_ON_FAILURE)",,"User input text in ""Description"" field",,2022-10-30 01:44:07,2022-10-30 01:44:08,1.474s,PASSED
+hideKeyboard(),,User hide keyboard,,2022-10-30 01:44:08,2022-10-30 01:44:08,0.238s,PASSED
+"swipe(724, 1830, 724, 1000)",,"User ""Swipe Up"" untill find ""Publish"" button",,2022-10-30 01:44:08,2022-10-30 01:44:09,0.949s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-PublishButton""), 0)",,"User click ""Publish"" button ",,2022-10-30 01:44:09,2022-10-30 01:44:10,1.230s,PASSED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-25,,,,2022-10-30 01:44:11,2022-10-30 01:44:40,29.559s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:44:11,2022-10-30 01:44:31,20.308s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/Menu/BlastMenu""), 0)",,"User click ""Blast"" menu",,2022-10-30 01:44:31,2022-10-30 01:44:31,0.114s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-AddButtonOnTheBottomRightSide""), 0)",,"User click ""+"" button on the bottom right corner",,2022-10-30 01:44:31,2022-10-30 01:44:34,2.407s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-TypeATitleField""), 0)",,"User click ""Type a Title"" field",,2022-10-30 01:44:34,2022-10-30 01:44:34,0.803s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Post/POST-TypeATitleField""), findTestData(""Blast/Post/PostData"").getValue(1, 3), 0)",,"User input empty text in ""Type a Title"" field",,2022-10-30 01:44:34,2022-10-30 01:44:35,0.742s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-YourTextHereField""), 0)",,"User click ""Description"" field",,2022-10-30 01:44:35,2022-10-30 01:44:35,0.152s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Post/Post-DescriptionField1""), findTestData(""Blast/Post/PostData"").getValue(2, 1), 0, STOP_ON_FAILURE)",,"User input text in ""Description"" field",,2022-10-30 01:44:35,2022-10-30 01:44:37,1.449s,PASSED
+hideKeyboard(),,User hide keyboard,,2022-10-30 01:44:37,2022-10-30 01:44:37,0.145s,PASSED
+"swipe(724, 1830, 724, 1000)",,"User ""Swipe Up"" untill find ""Publish"" button",,2022-10-30 01:44:37,2022-10-30 01:44:38,0.937s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-PublishButton""), 0)",,"User click ""Publish"" button ",,2022-10-30 01:44:38,2022-10-30 01:44:40,2.057s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Blast/Post/POST-Assert-TitleMustBeFilled""), 0)",,,,2022-10-30 01:44:40,2022-10-30 01:44:40,0.153s,PASSED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-26,,,,2022-10-30 01:44:40,2022-10-30 01:45:08,28.415s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:44:40,2022-10-30 01:45:00,19.189s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/Menu/BlastMenu""), 0)",,"User click ""Blast"" menu",,2022-10-30 01:45:00,2022-10-30 01:45:00,0.108s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-AddButtonOnTheBottomRightSide""), 0)",,"User click ""+"" button on the bottom right corner",,2022-10-30 01:45:00,2022-10-30 01:45:02,2.204s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-TypeATitleField""), 0)",,"User click ""Type a Title"" field",,2022-10-30 01:45:02,2022-10-30 01:45:02,0.147s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Post/POST-TypeATitleField""), findTestData(""Blast/Post/PostData"").getValue(1, 2), 0)",,"User input Text in ""Type a Title"" field",,2022-10-30 01:45:02,2022-10-30 01:45:03,0.751s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-YourTextHereField""), 0)",,"User click ""Description"" field",,2022-10-30 01:45:03,2022-10-30 01:45:04,1.647s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Post/Post-DescriptionField1""), findTestData(""Blast/Post/PostData"").getValue(2, 3), 0, STOP_ON_FAILURE)",,"User input empty text in ""Description"" field",,2022-10-30 01:45:04,2022-10-30 01:45:05,0.742s,PASSED
+hideKeyboard(),,User hide keyboard,,2022-10-30 01:45:05,2022-10-30 01:45:05,0.161s,PASSED
+"swipe(724, 1830, 724, 1000)",,"User ""Swipe Up"" untill find ""Publish"" button",,2022-10-30 01:45:05,2022-10-30 01:45:06,0.932s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Post/POST-PublishButton""), 0)",,"User click ""Publish"" button ",,2022-10-30 01:45:06,2022-10-30 01:45:08,2.126s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Blast/Post/POST-Assert-DescriptionMustBeFilled""), 0)",,,,2022-10-30 01:45:08,2022-10-30 01:45:08,0.114s,PASSED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-27,,,,2022-10-30 01:45:08,2022-10-30 01:45:38,29.754s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:45:09,2022-10-30 01:45:28,19.270s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/Menu/BlastMenu""), 0)",,"User click ""Blast"" menu",,2022-10-30 01:45:28,2022-10-30 01:45:28,0.109s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-AddButtonOntheBottomRightSide""), 0)",,"User click ""+"" button on the bottom right corner",,2022-10-30 01:45:28,2022-10-30 01:45:30,1.806s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-TypeATitleField""), 0)",,"User click ""Type a title"" field",,2022-10-30 01:45:30,2022-10-30 01:45:32,1.700s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Description/Desc-TypeATitleField""), findTestData(""Blast/Desc/Desc"").getValue(1, 1), 0)",,,,2022-10-30 01:45:32,2022-10-30 01:45:32,0.829s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-InsertLinkToolBar""), 0)",,,,2022-10-30 01:45:32,2022-10-30 01:45:34,1.670s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-TextToDisplay1Field""), 0)",,,,2022-10-30 01:45:34,2022-10-30 01:45:35,0.814s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-TextToDisplay2Field""), 0)",,,,2022-10-30 01:45:35,2022-10-30 01:45:35,0.163s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Description/Desc-TextToDisplay2Field""), findTestData(""Blast/Desc/Desc"").getValue(2, 1), 0)",,,,2022-10-30 01:45:35,2022-10-30 01:45:35,0.085s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-URL1Field""), 0)",,,,2022-10-30 01:45:35,2022-10-30 01:45:36,0.905s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-URL2Field""), 0)",,,,2022-10-30 01:45:36,2022-10-30 01:45:37,0.780s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Description/Desc-URL2Field""), findTestData(""Blast/Desc/Desc"").getValue(3, 1), 0)",,,,2022-10-30 01:45:37,2022-10-30 01:45:37,0.104s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-InsertLinkOKButton""), 0)",,,,2022-10-30 01:45:37,2022-10-30 01:45:38,1.279s,PASSED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-28,,,,2022-10-30 01:45:38,2022-10-30 01:46:06,28.118s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:45:39,2022-10-30 01:45:58,19.308s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/Menu/BlastMenu""), 0)",,"User click ""Blast"" menu",,2022-10-30 01:45:58,2022-10-30 01:45:58,0.123s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-AddButtonOntheBottomRightSide""), 0)",,"User click ""+"" button on the bottom right corner",,2022-10-30 01:45:58,2022-10-30 01:46:00,2.487s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-TypeATitleField""), 0)",,"User click ""Type a title"" field",,2022-10-30 01:46:00,2022-10-30 01:46:01,0.901s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Description/Desc-TypeATitleField""), findTestData(""Blast/Desc/Desc"").getValue(1, 1), 0)",,,,2022-10-30 01:46:01,2022-10-30 01:46:02,0.785s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-InsertLinkToolBar""), 0)",,,,2022-10-30 01:46:02,2022-10-30 01:46:04,1.632s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-TextToDisplay1Field""), 0)",,,,2022-10-30 01:46:04,2022-10-30 01:46:04,0.165s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-TextToDisplay2Field""), 0)",,,,2022-10-30 01:46:04,2022-10-30 01:46:05,0.734s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Description/Desc-TextToDisplay2Field""), findTestData(""Blast/Desc/Desc"").getValue(2, 3), 0)",,,,2022-10-30 01:46:05,2022-10-30 01:46:05,0.113s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-URL1Field""), 0)",,,,2022-10-30 01:46:05,2022-10-30 01:46:05,0.694s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-URL2Field""), 0)",,,,2022-10-30 01:46:05,2022-10-30 01:46:06,0.142s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/Description/Desc-URL2Field""), findTestData(""Blast/Desc/Desc"").getValue(3, 3), 0)",,,,2022-10-30 01:46:06,2022-10-30 01:46:06,0.079s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Description/Desc-InsertLinkOKButton""), 0)",,,,2022-10-30 01:46:06,2022-10-30 01:46:06,0.615s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Blast/Description/Desc-Assert-PleaseEntrtURL""), 0)",,,,2022-10-30 01:46:06,2022-10-30 01:46:06,0.094s,PASSED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-29,,,,2022-10-30 01:46:06,2022-10-30 01:46:38,31.247s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:46:07,2022-10-30 01:46:26,19.455s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/Menu/BlastMenu""), 0)",,,,2022-10-30 01:46:26,2022-10-30 01:46:26,0.107s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-AddButtonOntheBottomRightSide""), 0)",,,,2022-10-30 01:46:26,2022-10-30 01:46:29,2.509s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-DueDate1""), 0)",,,,2022-10-30 01:46:29,2022-10-30 01:46:30,0.800s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-SwitchToInputButton""), 0)",,,,2022-10-30 01:46:30,2022-10-30 01:46:31,1.343s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-EnterDateField""), 0)",,,,2022-10-30 01:46:31,2022-10-30 01:46:31,0.167s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/DueDate/Date-EnterDateField""), findTestData(""Blast/Date"").getValue(1, 1), 0)",,,,2022-10-30 01:46:31,2022-10-30 01:46:32,1.092s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-OkButtonDate""), 0)",,,,2022-10-30 01:46:32,2022-10-30 01:46:33,1.299s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-SwitchInputTime""), 0)",,,,2022-10-30 01:46:33,2022-10-30 01:46:34,0.831s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-EnterTimeHour""), 0)",,,,2022-10-30 01:46:34,2022-10-30 01:46:34,0.126s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/DueDate/Date-EnterTimeHour""), findTestData(""Blast/Time"").getValue(1, 1), 0)",,,,2022-10-30 01:46:34,2022-10-30 01:46:35,0.715s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-EnterMinute""), 0)",,,,2022-10-30 01:46:35,2022-10-30 01:46:36,0.608s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/DueDate/Date-EnterMinute""), findTestData(""Blast/Time"").getValue(2, 1), 0)",,,,2022-10-30 01:46:36,2022-10-30 01:46:36,0.582s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-SelectTimeOKbutton""), 0)",,,,2022-10-30 01:46:36,2022-10-30 01:46:38,1.269s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Blast/DueDate/Date-DueDate1""), 0)",,,,2022-10-30 01:46:38,2022-10-30 01:46:38,0.111s,PASSED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-30,,,,2022-10-30 01:46:38,2022-10-30 01:47:04,26.641s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:46:38,2022-10-30 01:46:56,18.547s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/Menu/BlastMenu""), 0)",,,,2022-10-30 01:46:56,2022-10-30 01:46:57,0.893s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-AddButtonOntheBottomRightSide""), 0)",,,,2022-10-30 01:46:57,2022-10-30 01:47:00,2.502s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-DueDate1""), 0)",,,,2022-10-30 01:47:00,2022-10-30 01:47:00,0.195s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-SwitchToInputButton""), 0)",,,,2022-10-30 01:47:00,2022-10-30 01:47:02,1.859s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-EnterDateField""), 0)",,,,2022-10-30 01:47:02,2022-10-30 01:47:02,0.126s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/DueDate/Date-EnterDateField""), findTestData(""Blast/Date"").getValue(2, 1), 0)",,,,2022-10-30 01:47:02,2022-10-30 01:47:03,1.121s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-OkButtonDate""), 0)",,,,2022-10-30 01:47:03,2022-10-30 01:47:04,1.087s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Blast/DueDate/Date-Asset-InvalidDateFormat""), 0)",,,,2022-10-30 01:47:04,2022-10-30 01:47:04,0.107s,PASSED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-31,,,,2022-10-30 01:47:04,2022-10-30 01:47:30,25.678s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:47:05,2022-10-30 01:47:24,19.373s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/Menu/BlastMenu""), 0)",,,,2022-10-30 01:47:24,2022-10-30 01:47:24,0.103s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-AddButtonOntheBottomRightSide""), 0)",,,,2022-10-30 01:47:24,2022-10-30 01:47:26,1.572s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-DueDate1""), 0)",,,,2022-10-30 01:47:26,2022-10-30 01:47:26,0.814s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-SwitchToInputButton""), 0)",,,,2022-10-30 01:47:26,2022-10-30 01:47:28,1.560s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-EnterDateField""), 0)",,,,2022-10-30 01:47:28,2022-10-30 01:47:28,0.138s,PASSED
+"setText(findTestObject(""cicle.staging/Blast/DueDate/Date-EnterDateField""), findTestData(""Blast/Date"").getValue(3, 1), 0)",,,,2022-10-30 01:47:28,2022-10-30 01:47:29,1.096s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/DueDate/Date-OkButtonDate""), 0)",,,,2022-10-30 01:47:29,2022-10-30 01:47:30,0.658s,PASSED
+"verifyElementVisible(findTestObject(""cicle.staging/Blast/DueDate/Date-Asset-InvalidDateFormat""), 0)",,,,2022-10-30 01:47:30,2022-10-30 01:47:30,0.144s,PASSED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-32,,,,2022-10-30 01:47:30,2022-10-30 01:47:55,24.522s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:47:30,2022-10-30 01:47:49,18.325s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/Menu/BlastMenu""), 0)",,,,2022-10-30 01:47:49,2022-10-30 01:47:49,0.928s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/MemberNotification/Notif-AddButtonOntheBottomRightSide""), 0)",,,,2022-10-30 01:47:49,2022-10-30 01:47:52,2.560s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/MemberNotification/Notif-AddMemberWhodoyouWannabenotified""), 0)",,,,2022-10-30 01:47:52,2022-10-30 01:47:53,0.903s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/MemberNotification/Notif-CheckBoxSelectAllMember""), 0)",,,,2022-10-30 01:47:53,2022-10-30 01:47:54,0.649s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/MemberNotification/Notif-Donebutton""), 0)",,,,2022-10-30 01:47:54,2022-10-30 01:47:54,0.844s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/cicle.staging/Blast/MemberNotification/Notif-AllMemberAssert""), 0)",,,,2022-10-30 01:47:54,2022-10-30 01:47:55,0.111s,PASSED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-33,,,,2022-10-30 01:47:55,2022-10-30 01:48:22,27.139s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:47:55,2022-10-30 01:48:14,19.347s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/Menu/BlastMenu""), 0)",,,,2022-10-30 01:48:14,2022-10-30 01:48:14,0.107s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/MemberNotification/Notif-AddButtonOntheBottomRightSide""), 0)",,,,2022-10-30 01:48:14,2022-10-30 01:48:17,2.340s,PASSED
+"for ([i = 1, i < 3, (i++)])",,,,2022-10-30 01:48:17,2022-10-30 01:48:22,4.904s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/cicle.staging/Blast/MemberNotification/Notif-AllMemberAssert""), 0)",,,,2022-10-30 01:48:22,2022-10-30 01:48:22,0.110s,PASSED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-35,,,,2022-10-30 01:48:22,2022-10-30 01:48:46,24.439s,PASSED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-30 01:48:22,2022-10-30 01:48:40,18.221s,PASSED
+"tap(findTestObject(""cicle.staging/Blast/Menu/BlastMenu""), 0)",,"User click ""Blast"" Menu",,2022-10-30 01:48:40,2022-10-30 01:48:41,0.943s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Archive/Archive-3dotbutton""), 0)",,"User click ""Three Dot"" button on post",,2022-10-30 01:48:41,2022-10-30 01:48:43,2.007s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Archive/Arhive-archivebutton""), 0)",,"User click ""Archive"" button",,2022-10-30 01:48:43,2022-10-30 01:48:44,0.652s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/cicle.staging/Blast/Archive/Archive-ArchivePostPopup""), 0)",,,,2022-10-30 01:48:44,2022-10-30 01:48:44,0.097s,PASSED
+"tap(findTestObject(""Object Repository/cicle.staging/Blast/Archive/Archive-Ok button""), 0)",,"User click ""Ok"" button",,2022-10-30 01:48:44,2022-10-30 01:48:46,2.338s,PASSED

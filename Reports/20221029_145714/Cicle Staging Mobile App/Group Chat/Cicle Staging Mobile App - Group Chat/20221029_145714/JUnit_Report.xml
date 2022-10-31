@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cicle Staging Mobile App - Group Chat" time="535.963" tests="15" failures="4" errors="0">
+   <testsuite name="Cicle Staging Mobile App - Group Chat" tests="15" failures="4" errors="0" time="535.963" skipped="0" timestamp="2022-10-29 14:57:26" hostname="sandikurnia - localhost" id="Test Suites/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_145714/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat/20221029_145714"/>
+         <property name="logFiles" value="/Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_145714/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat/20221029_145714/execution0.log, /Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_145714/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat/20221029_145714/appium.log"/>
+         <property name="attachments" value="/Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_145714/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat/20221029_145714/1667030451721.png, /Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_145714/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat/20221029_145714/1667030683049.png, /Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_145714/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat/20221029_145714/1667030732696.png, /Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_145714/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat/20221029_145714/1667030781872.png"/>
+         <property name="hostName" value="sandikurnia - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-13" time="28.984" classname="Test Cases/GroupChat/TC_Group Chat_CS-13" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:57:26 - [TEST_CASE][PASSED] - Test Cases/GroupChat/TC_Group Chat_CS-13: Test Cases/GroupChat/TC_Group Chat_CS-13
+
+2022-10-29 14:57:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:57:27 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:57:27 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:57:28 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/18.11.0/bin/node"
+
+2022-10-29 14:57:29 - [MESSAGE][INFO] - Appium server started on port 50,684
+
+2022-10-29 14:57:38 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:57:38 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:57:41 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:57:41 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:57:43 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:57:43 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:57:45 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:57:45 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:57:47 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:57:47 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:57:49 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:57:49 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:57:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:57:49 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:57:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:57:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:57:51 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 14:57:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:57:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 14:57:51 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:57:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:57:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:57:53 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), findTestData("GroupChat/sendMessageonGroupChat").getValue(1, 1), 0): Text 'Hello Sandi !!' has been set to element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:57:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:57:53 - [MESSAGE][PASSED] - Text 'Hello Sandi !!' has been set to element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:57:53 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/SendChat-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/SendChat-Button'
+
+2022-10-29 14:57:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:57:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/SendChat-Button'
+
+2022-10-29 14:57:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("cicle.staging/Group Chat/Assertion-SendChat"), 0): Element 'Object Repository/cicle.staging/Group Chat/Assertion-SendChat' is visible
+
+2022-10-29 14:57:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:57:55 - [MESSAGE][PASSED] - Element 'Object Repository/cicle.staging/Group Chat/Assertion-SendChat' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-14" time="50.983" classname="Test Cases/GroupChat/TC_Group Chat_CS-14" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:57:55 - [TEST_CASE][PASSED] - Test Cases/GroupChat/TC_Group Chat_CS-14: Test Cases/GroupChat/TC_Group Chat_CS-14
+
+2022-10-29 14:57:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:57:56 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:57:56 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:58:01 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:58:01 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:58:03 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:58:03 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:58:05 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:58:05 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:58:07 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:58:07 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:58:10 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:58:10 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:58:12 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:58:12 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:58:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:58:12 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:58:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:58:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:58:13 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 14:58:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:58:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 14:58:14 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:58:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:58:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:58:15 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), findTestData("GroupChat/sendMessageonGroupChat").getValue(2, 1), 0): Text '' has been set to element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:58:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:58:16 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:58:16 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("cicle.staging/Group Chat/SendChat-Button"), 0): Element 'Object Repository/cicle.staging/Group Chat/SendChat-Button' not found
+
+2022-10-29 14:58:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:58:46 - [MESSAGE][PASSED] - Element 'Object Repository/cicle.staging/Group Chat/SendChat-Button' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-15" time="53.138" classname="Test Cases/GroupChat/TC_Group Chat_CS-15" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:58:46 - [TEST_CASE][PASSED] - Test Cases/GroupChat/TC_Group Chat_CS-15: Test Cases/GroupChat/TC_Group Chat_CS-15
+
+2022-10-29 14:58:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:58:47 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:58:47 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:58:52 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:58:52 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:58:54 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:58:54 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:58:56 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:58:56 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:58:58 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:58:58 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:59:00 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:59:00 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:59:03 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:59:03 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:59:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:59:03 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:59:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:59:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:59:04 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 14:59:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:59:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 14:59:04 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:59:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:59:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:59:06 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/MentionUser-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/MentionUser-Button'
+
+2022-10-29 14:59:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:59:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/MentionUser-Button'
+
+2022-10-29 14:59:07 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/MentionAllUserOnChat-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/MentionAllUserOnChat-Button'
+
+2022-10-29 14:59:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:59:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/MentionAllUserOnChat-Button'
+
+2022-10-29 14:59:08 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/SendChat-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/SendChat-Button'
+
+2022-10-29 14:59:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:59:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/SendChat-Button'
+
+2022-10-29 14:59:09 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("cicle.staging/Group Chat/AssertMentionAllUser"), 0): Element 'Object Repository/cicle.staging/Group Chat/AssertMentionAllUser' not found
+
+2022-10-29 14:59:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:59:39 - [MESSAGE][PASSED] - Element 'Object Repository/cicle.staging/Group Chat/AssertMentionAllUser' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-16" time="23.656" classname="Test Cases/GroupChat/TC_Group Chat_CS-16" status="PASSED">
+         <system-out><![CDATA[2022-10-29 14:59:39 - [TEST_CASE][PASSED] - Test Cases/GroupChat/TC_Group Chat_CS-16: Test Cases/GroupChat/TC_Group Chat_CS-16
+
+2022-10-29 14:59:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:59:40 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 14:59:40 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:59:45 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 14:59:45 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:59:47 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 14:59:47 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:59:49 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 14:59:49 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:59:52 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 14:59:52 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:59:54 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 14:59:54 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:59:56 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 14:59:56 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:59:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 14:59:56 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:59:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 14:59:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 14:59:57 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 14:59:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:59:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 14:59:57 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:59:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 14:59:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 14:59:59 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 14:59:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:00:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 15:00:01 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/ImageFromGalleryAttachment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/ImageFromGalleryAttachment-Button'
+
+2022-10-29 15:00:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:00:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/ImageFromGalleryAttachment-Button'
+
+2022-10-29 15:00:01 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/Image-AddImageFromFiles-RECENT FILES"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/Group Chat/Image-AddImageFromFiles-RECENT FILES'
+
+2022-10-29 15:00:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:00:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/Image-AddImageFromFiles-RECENT FILES']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-17" time="48.624" classname="Test Cases/GroupChat/TC_Group Chat_CS-17" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GroupChat/TC_Group Chat_CS-17 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/IMAGE ON GROUP CHAT not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at TC_Group Chat_CS-17.run(TC_Group Chat_CS-17:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+"/>
+         <system-out><![CDATA[2022-10-29 15:00:03 - [TEST_CASE][FAILED] - Test Cases/GroupChat/TC_Group Chat_CS-17: Test Cases/GroupChat/TC_Group Chat_CS-17 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/IMAGE ON GROUP CHAT not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at TC_Group Chat_CS-17.run(TC_Group Chat_CS-17:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+
+
+2022-10-29 15:00:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:00:03 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 15:00:03 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:00:09 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:00:09 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:00:11 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:00:11 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:00:13 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:00:13 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:00:15 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:00:15 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:00:17 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:00:17 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:00:19 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:00:19 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:00:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:00:20 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:00:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:00:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:00:21 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:00:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:00:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:00:21 - [TEST_STEP][FAILED] - tap(findTestObject("cicle.staging/Group Chat/IMAGE ON GROUP CHAT"), 0): Failed to tap on element 'Object Repository/cicle.staging/Group Chat/IMAGE ON GROUP CHAT' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/IMAGE ON GROUP CHAT not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at TC_Group Chat_CS-17.run(TC_Group Chat_CS-17:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+)
+
+2022-10-29 15:00:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:00:51 - [MESSAGE][FAILED] - Object Object Repository/cicle.staging/Group Chat/IMAGE ON GROUP CHAT not found
+
+2022-10-29 15:00:52 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/cicle.staging/Group Chat/IMAGE ON GROUP CHAT' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/IMAGE ON GROUP CHAT not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at TC_Group Chat_CS-17.run(TC_Group Chat_CS-17:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+)
+[[ATTACHMENT|/Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_145714/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat/20221029_145714/1667030451721.png]]]]></system-out>
+         <system-err><![CDATA[2022-10-29 15:00:03 - [TEST_CASE][FAILED] - Test Cases/GroupChat/TC_Group Chat_CS-17: Test Cases/GroupChat/TC_Group Chat_CS-17 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/IMAGE ON GROUP CHAT not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at TC_Group Chat_CS-17.run(TC_Group Chat_CS-17:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-18" time="23.892" classname="Test Cases/GroupChat/TC_Group Chat_CS-18" status="PASSED">
+         <system-out><![CDATA[2022-10-29 15:00:52 - [TEST_CASE][PASSED] - Test Cases/GroupChat/TC_Group Chat_CS-18: Test Cases/GroupChat/TC_Group Chat_CS-18
+
+2022-10-29 15:00:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:00:52 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 15:00:52 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:00:57 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:00:57 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:01:00 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:01:00 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:01:02 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:01:02 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:01:04 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:01:04 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:01:06 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:01:06 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:01:08 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:01:08 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:01:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:01:08 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:01:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:01:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:01:10 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:01:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:01:10 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:01:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:01:11 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 15:01:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 15:01:13 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/ImageFromCameraAttachment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/ImageFromCameraAttachment-Button'
+
+2022-10-29 15:01:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/ImageFromCameraAttachment-Button'
+
+2022-10-29 15:01:13 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/shutterCamera-Button"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/cicle.staging/Group Chat/shutterCamera-Button'
+
+2022-10-29 15:01:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/shutterCamera-Button'
+
+2022-10-29 15:01:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/cicle.staging/Group Chat/CheckCameraButton"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/CheckCameraButton'
+
+2022-10-29 15:01:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/CheckCameraButton']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-19" time="24.924" classname="Test Cases/GroupChat/TC_Group Chat_CS-19" status="PASSED">
+         <system-out><![CDATA[2022-10-29 15:01:16 - [TEST_CASE][PASSED] - Test Cases/GroupChat/TC_Group Chat_CS-19: Test Cases/GroupChat/TC_Group Chat_CS-19
+
+2022-10-29 15:01:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:01:16 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 15:01:16 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:01:21 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:01:21 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:01:24 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:01:24 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:01:26 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:01:26 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:01:28 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:01:28 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:01:30 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:01:30 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:01:32 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:01:32 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:01:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:01:32 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:01:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:01:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:01:34 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:01:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:01:34 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:01:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:01:35 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 15:01:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 15:01:37 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/DocumentandVideoAttachment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/DocumentandVideoAttachment-Button'
+
+2022-10-29 15:01:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/DocumentandVideoAttachment-Button'
+
+2022-10-29 15:01:38 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/Video Button-RECENT FILES"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/Video Button-RECENT FILES'
+
+2022-10-29 15:01:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/Video Button-RECENT FILES'
+
+2022-10-29 15:01:39 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/MP4 FILE"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/MP4 FILE'
+
+2022-10-29 15:01:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/MP4 FILE']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-20" time="39.358" classname="Test Cases/GroupChat/TC_Group Chat_CS-20" status="PASSED">
+         <system-out><![CDATA[2022-10-29 15:01:41 - [TEST_CASE][PASSED] - Test Cases/GroupChat/TC_Group Chat_CS-20: Test Cases/GroupChat/TC_Group Chat_CS-20
+
+2022-10-29 15:01:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:01:41 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 15:01:41 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:01:46 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:01:46 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:01:48 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:01:48 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:01:51 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:01:51 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:01:53 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:01:53 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:01:55 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:01:55 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:01:57 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:01:57 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:01:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:01:57 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:01:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:01:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:01:58 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:01:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:01:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:01:59 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:01:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:02:00 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 15:02:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 15:02:02 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/DocumentandVideoAttachment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/DocumentandVideoAttachment-Button'
+
+2022-10-29 15:02:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/DocumentandVideoAttachment-Button'
+
+2022-10-29 15:02:03 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/Video Button-RECENT FILES"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/Video Button-RECENT FILES'
+
+2022-10-29 15:02:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/Video Button-RECENT FILES'
+
+2022-10-29 15:02:04 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/MOV Files2"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/MOV Files2'
+
+2022-10-29 15:02:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/MOV Files2'
+
+2022-10-29 15:02:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("cicle.staging/Group Chat/FormatFileNotAllowed"), 0): Element 'Object Repository/cicle.staging/Group Chat/FormatFileNotAllowed' is visible
+
+2022-10-29 15:02:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:20 - [MESSAGE][PASSED] - Element 'Object Repository/cicle.staging/Group Chat/FormatFileNotAllowed' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-21" time="25.239" classname="Test Cases/GroupChat/TC_Group Chat_CS-21" status="PASSED">
+         <system-out><![CDATA[2022-10-29 15:02:20 - [TEST_CASE][PASSED] - Test Cases/GroupChat/TC_Group Chat_CS-21: Test Cases/GroupChat/TC_Group Chat_CS-21
+
+2022-10-29 15:02:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:02:20 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 15:02:20 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:02:25 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:02:25 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:02:28 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:02:28 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:02:30 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:02:30 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:02:32 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:02:32 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:02:34 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:02:34 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:02:36 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:02:36 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:02:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:02:36 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:02:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:02:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:02:38 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:02:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:02:38 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:02:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:02:40 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 15:02:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 15:02:41 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/DocumentandVideoAttachment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/DocumentandVideoAttachment-Button'
+
+2022-10-29 15:02:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/DocumentandVideoAttachment-Button'
+
+2022-10-29 15:02:41 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/DocumentsMenuOnFile"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/DocumentsMenuOnFile'
+
+2022-10-29 15:02:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/DocumentsMenuOnFile'
+
+2022-10-29 15:02:43 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/XLSX Doc - Recent File"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/XLSX Doc - Recent File'
+
+2022-10-29 15:02:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:02:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/XLSX Doc - Recent File']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-22" time="25.295" classname="Test Cases/GroupChat/TC_Group Chat_CS-22" status="PASSED">
+         <system-out><![CDATA[2022-10-29 15:02:45 - [TEST_CASE][PASSED] - Test Cases/GroupChat/TC_Group Chat_CS-22: Test Cases/GroupChat/TC_Group Chat_CS-22
+
+2022-10-29 15:02:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:02:46 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 15:02:46 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:02:51 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:02:51 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:02:53 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:02:53 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:02:55 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:02:55 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:02:58 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:02:58 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:03:00 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:03:00 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:03:02 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:03:02 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:03:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:03:02 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:03:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:03:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:03:03 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:03:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:03:03 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:03:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:03:05 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 15:03:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChat-AttachmentButtonPopUpKeyboard'
+
+2022-10-29 15:03:06 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/DocumentandVideoAttachment-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/DocumentandVideoAttachment-Button'
+
+2022-10-29 15:03:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/DocumentandVideoAttachment-Button'
+
+2022-10-29 15:03:08 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/Audio button - Files"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/Audio button - Files'
+
+2022-10-29 15:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/Audio button - Files'
+
+2022-10-29 15:03:08 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/Audio File - Files"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/Audio File - Files'
+
+2022-10-29 15:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/Audio File - Files']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-23" time="21.443" classname="Test Cases/GroupChat/TC_Group Chat_CS-23" status="PASSED">
+         <system-out><![CDATA[2022-10-29 15:03:10 - [TEST_CASE][PASSED] - Test Cases/GroupChat/TC_Group Chat_CS-23: Test Cases/GroupChat/TC_Group Chat_CS-23
+
+2022-10-29 15:03:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:03:11 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 15:03:11 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:03:16 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:03:16 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:03:18 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:03:18 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:03:21 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:03:21 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:03:23 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:03:23 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:03:25 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:03:25 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:03:27 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:03:27 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:03:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:03:27 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:03:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:03:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:03:28 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:03:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:03:29 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/DropDownButtonOnTheUpperRightSide-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/DropDownButtonOnTheUpperRightSide-Button'
+
+2022-10-29 15:03:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/DropDownButtonOnTheUpperRightSide-Button'
+
+2022-10-29 15:03:31 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/DropDownGroupChat-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/DropDownGroupChat-Button'
+
+2022-10-29 15:03:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/DropDownGroupChat-Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-36" time="22.389" classname="Test Cases/GroupChat/TC_Group Chat_CS-36" status="PASSED">
+         <system-out><![CDATA[2022-10-29 15:03:32 - [TEST_CASE][PASSED] - Test Cases/GroupChat/TC_Group Chat_CS-36: Test Cases/GroupChat/TC_Group Chat_CS-36
+
+2022-10-29 15:03:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:03:32 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 15:03:32 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:03:37 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:03:37 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:03:40 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:03:40 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:03:42 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:03:42 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:03:44 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:03:44 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:03:46 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:03:46 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:03:48 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:03:48 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:03:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:03:49 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:03:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:03:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:03:50 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:03:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:03:50 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:03:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:03:52 - [TEST_STEP][PASSED] - setText(findTestObject("cicle.staging/Group Chat/TypeMessage-Field"), findTestData("GroupChat/sendMessageonGroupChat").getValue(2, 2), 0): Text '  ' has been set to element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:03:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:52 - [MESSAGE][PASSED] - Text '  ' has been set to element 'Object Repository/cicle.staging/Group Chat/TypeMessage-Field'
+
+2022-10-29 15:03:52 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/SendChat-Button"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/SendChat-Button'
+
+2022-10-29 15:03:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/SendChat-Button'
+
+2022-10-29 15:03:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("cicle.staging/Group Chat/Assertion-SendChat"), 0): Element 'Object Repository/cicle.staging/Group Chat/Assertion-SendChat' is visible
+
+2022-10-29 15:03:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:03:54 - [MESSAGE][PASSED] - Element 'Object Repository/cicle.staging/Group Chat/Assertion-SendChat' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-37" time="48.516" classname="Test Cases/GroupChat/TC_Group Chat_CS-37" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GroupChat/TC_Group Chat_CS-37 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Board/Comment/BubbleTextt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-37.run(TC_Group Chat_CS-37:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+"/>
+         <system-out><![CDATA[2022-10-29 15:03:54 - [TEST_CASE][FAILED] - Test Cases/GroupChat/TC_Group Chat_CS-37: Test Cases/GroupChat/TC_Group Chat_CS-37 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Board/Comment/BubbleTextt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-37.run(TC_Group Chat_CS-37:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+
+
+2022-10-29 15:03:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:03:55 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 15:03:55 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:04:00 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:04:00 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:04:02 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:04:02 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:04:04 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:04:04 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:04:07 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:04:07 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:04:09 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:04:09 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:04:11 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:04:11 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:04:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:04:11 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:04:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:04:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:04:12 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:04:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:04:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:04:12 - [TEST_STEP][FAILED] - tap(findTestObject("cicle.staging/Board/Comment/BubbleTextt"), 0, STOP_ON_FAILURE): Failed to tap on element 'Object Repository/cicle.staging/Board/Comment/BubbleTextt' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Board/Comment/BubbleTextt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-37.run(TC_Group Chat_CS-37:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+)
+
+2022-10-29 15:04:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:04:43 - [MESSAGE][FAILED] - Object Object Repository/cicle.staging/Board/Comment/BubbleTextt not found
+
+2022-10-29 15:04:43 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/cicle.staging/Board/Comment/BubbleTextt' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Board/Comment/BubbleTextt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-37.run(TC_Group Chat_CS-37:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+)
+[[ATTACHMENT|/Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_145714/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat/20221029_145714/1667030683049.png]]]]></system-out>
+         <system-err><![CDATA[2022-10-29 15:03:54 - [TEST_CASE][FAILED] - Test Cases/GroupChat/TC_Group Chat_CS-37: Test Cases/GroupChat/TC_Group Chat_CS-37 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Board/Comment/BubbleTextt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-37.run(TC_Group Chat_CS-37:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-38" time="49.623" classname="Test Cases/GroupChat/TC_Group Chat_CS-38" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GroupChat/TC_Group Chat_CS-38 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-38.run(TC_Group Chat_CS-38:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+"/>
+         <system-out><![CDATA[2022-10-29 15:04:43 - [TEST_CASE][FAILED] - Test Cases/GroupChat/TC_Group Chat_CS-38: Test Cases/GroupChat/TC_Group Chat_CS-38 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-38.run(TC_Group Chat_CS-38:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+
+
+2022-10-29 15:04:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:04:43 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 15:04:43 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:04:48 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:04:48 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:04:51 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:04:51 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:04:53 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:04:53 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:04:55 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:04:55 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:04:57 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:04:57 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:04:59 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:04:59 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:04:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:04:59 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:05:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:05:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:05:01 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:05:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:05:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:05:02 - [TEST_STEP][FAILED] - tap(findTestObject("cicle.staging/Group Chat/BubbleChatMessage"), 0, STOP_ON_FAILURE): Failed to tap on element 'Object Repository/cicle.staging/Group Chat/BubbleChatMessage' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-38.run(TC_Group Chat_CS-38:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+)
+
+2022-10-29 15:05:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:05:32 - [MESSAGE][FAILED] - Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+
+2022-10-29 15:05:32 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/cicle.staging/Group Chat/BubbleChatMessage' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-38.run(TC_Group Chat_CS-38:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+)
+[[ATTACHMENT|/Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_145714/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat/20221029_145714/1667030732696.png]]]]></system-out>
+         <system-err><![CDATA[2022-10-29 15:04:43 - [TEST_CASE][FAILED] - Test Cases/GroupChat/TC_Group Chat_CS-38: Test Cases/GroupChat/TC_Group Chat_CS-38 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-38.run(TC_Group Chat_CS-38:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroupChat/TC_Group Chat_CS-39" time="49.202" classname="Test Cases/GroupChat/TC_Group Chat_CS-39" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GroupChat/TC_Group Chat_CS-39 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-39.run(TC_Group Chat_CS-39:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+"/>
+         <system-out><![CDATA[2022-10-29 15:05:32 - [TEST_CASE][FAILED] - Test Cases/GroupChat/TC_Group Chat_CS-39: Test Cases/GroupChat/TC_Group Chat_CS-39 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-39.run(TC_Group Chat_CS-39:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+
+
+2022-10-29 15:05:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sign in/TC_Sign in_CS-40"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:05:33 - [TEST_CASE][PASSED] - Test Cases/Sign in/TC_Sign in_CS-40: Test Cases/Sign in/TC_Sign in_CS-40
+
+2022-10-29 15:05:33 - [TEST_STEP][PASSED] - startApplication("/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk", false): Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:05:38 - [MESSAGE][PASSED] - Started app at: '/Users/sandikurnia/Downloads/apk-staging-for-iqbal.apk'
+
+2022-10-29 15:05:38 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/YesButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:05:40 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/YesButtonWhenOpenitApp not found
+
+2022-10-29 15:05:40 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SkipButtonWhenOpenitApp"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:05:42 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SkipButtonWhenOpenitApp not found
+
+2022-10-29 15:05:42 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/GotoSignInButton"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:05:45 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/GotoSignInButton not found
+
+2022-10-29 15:05:45 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/SignInwithGoogleAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:05:47 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/SignInwithGoogleAccount not found
+
+2022-10-29 15:05:47 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/LayoutLoginwithMyAccount"), 2, OPTIONAL): Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:05:49 - [MESSAGE][WARNING] - Object Object Repository/cicle.staging/Startup/LayoutLoginwithMyAccount not found
+
+2022-10-29 15:05:49 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Startup/ChooseCompanyonYourListafterSignIn"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:05:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Startup/ChooseCompanyonYourListafterSignIn'
+
+2022-10-29 15:05:49 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage"), 2, OPTIONAL): Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:05:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/SekolahQAHeadQuarter/HeadquarterSekolahQA-MainPage'
+
+2022-10-29 15:05:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/TC_Sign in_CS-40' successfully
+
+2022-10-29 15:05:50 - [TEST_STEP][PASSED] - tap(findTestObject("cicle.staging/Group Chat/GroupChatMenu"), 0): Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:05:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cicle.staging/Group Chat/GroupChatMenu'
+
+2022-10-29 15:05:50 - [TEST_STEP][FAILED] - tap(findTestObject("cicle.staging/Group Chat/BubbleChatMessage"), 0, STOP_ON_FAILURE): Failed to tap on element 'Object Repository/cicle.staging/Group Chat/BubbleChatMessage' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-39.run(TC_Group Chat_CS-39:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+)
+
+2022-10-29 15:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-29 15:06:21 - [MESSAGE][FAILED] - Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+
+2022-10-29 15:06:22 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/cicle.staging/Group Chat/BubbleChatMessage' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-39.run(TC_Group Chat_CS-39:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)
+)
+[[ATTACHMENT|/Users/sandikurnia/Katalon Studio/smallProject/Reports/20221029_145714/Cicle Staging Mobile App/Group Chat/Cicle Staging Mobile App - Group Chat/20221029_145714/1667030781872.png]]]]></system-out>
+         <system-err><![CDATA[2022-10-29 15:05:32 - [TEST_CASE][FAILED] - Test Cases/GroupChat/TC_Group Chat_CS-39: Test Cases/GroupChat/TC_Group Chat_CS-39 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/BubbleChatMessage not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at TC_Group Chat_CS-39.run(TC_Group Chat_CS-39:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-29 14:57:26 - [TEST_SUITE][FAILED] - Cicle Staging Mobile App - Group Chat: Test Cases/GroupChat/TC_Group Chat_CS-17 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/IMAGE ON GROUP CHAT not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at TC_Group Chat_CS-17.run(TC_Group Chat_CS-17:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-10-29 14:57:26 - [TEST_SUITE][FAILED] - Cicle Staging Mobile App - Group Chat: Test Cases/GroupChat/TC_Group Chat_CS-17 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cicle.staging/Group Chat/IMAGE ON GROUP CHAT not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at TC_Group Chat_CS-17.run(TC_Group Chat_CS-17:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667030234540.run(TempTestSuite1667030234540.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

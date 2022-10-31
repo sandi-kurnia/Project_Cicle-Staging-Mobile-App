@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Board_CS-12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcb12100-a0fc-4d94-ac40-9c3b78d76d74</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7a93a51-306f-4cc0-bafc-4c8e7b02b2a3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SekolahQA'</defaultValue>
+      <description></description>
+      <id>a7a93a51-306f-4cc0-bafc-4c8e7b02b2a3</id>
+      <masked>false</masked>
+      <name>InvalidURL</name>
+   </variable>
+</TestCaseEntity>

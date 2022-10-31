@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cicle Staging Mobile App - Blast,,,,2022-10-29 15:50:11,2022-10-29 15:50:15,4.494s,FAILED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-24,,,,2022-10-29 15:50:11,2022-10-29 15:50:12,1.153s,FAILED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 15:50:12,2022-10-29 15:50:12,0.739s,FAILED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-25,,,,2022-10-29 15:50:12,2022-10-29 15:50:13,0.329s,FAILED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 15:50:13,2022-10-29 15:50:13,0.127s,FAILED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-26,,,,2022-10-29 15:50:13,2022-10-29 15:50:13,0.291s,FAILED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 15:50:13,2022-10-29 15:50:13,0.112s,FAILED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-27,,,,2022-10-29 15:50:13,2022-10-29 15:50:13,0.341s,FAILED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 15:50:13,2022-10-29 15:50:13,0.122s,FAILED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-28,,,,2022-10-29 15:50:13,2022-10-29 15:50:14,0.305s,FAILED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 15:50:14,2022-10-29 15:50:14,0.090s,FAILED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-29,,,,2022-10-29 15:50:14,2022-10-29 15:50:14,0.219s,FAILED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 15:50:14,2022-10-29 15:50:14,0.076s,FAILED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-30,,,,2022-10-29 15:50:14,2022-10-29 15:50:14,0.257s,FAILED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 15:50:14,2022-10-29 15:50:14,0.087s,FAILED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-31,,,,2022-10-29 15:50:14,2022-10-29 15:50:15,0.312s,FAILED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 15:50:14,2022-10-29 15:50:15,0.122s,FAILED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-32,,,,2022-10-29 15:50:15,2022-10-29 15:50:15,0.232s,FAILED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 15:50:15,2022-10-29 15:50:15,0.072s,FAILED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-33,,,,2022-10-29 15:50:15,2022-10-29 15:50:15,0.282s,FAILED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 15:50:15,2022-10-29 15:50:15,0.110s,FAILED
+,,,,,,,
+Test Cases/Blast/TC_Blast_CS-35,,,,2022-10-29 15:50:15,2022-10-29 15:50:15,0.288s,FAILED
+"callTestCase(findTestCase(""Sign in/TC_Sign in_CS-40""), [:], STOP_ON_FAILURE)",,,,2022-10-29 15:50:15,2022-10-29 15:50:15,0.091s,FAILED

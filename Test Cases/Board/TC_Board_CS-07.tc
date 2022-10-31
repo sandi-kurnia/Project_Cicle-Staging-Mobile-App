@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Board_CS-07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ff6fd93-3d3c-4e0b-9a24-c873f8251ab9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bc88470a-eb77-4aff-b17c-e254bd831edb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bc88470a-eb77-4aff-b17c-e254bd831edb</id>
+      <masked>false</masked>
+      <name>Project1</name>
+   </variable>
+</TestCaseEntity>
